@@ -818,10 +818,39 @@ switch_japanexhakone:
   name: "Japanese Rail Sim Hakone"
   namejp: "鉄道にっぽん！路線たびＥＸ 登山電車 小田急箱根編"
   date: 2024-09-19
-  code: ""
+  code: "HAC-P-BKFUA"
   platform: switch
   image: "switch_japanexhakone.jpg"
   ref: "/software_other/switch/japanexhakone"
+  controllers:
+    - model: dgoc44u
+      unofficial: yes
+      adapter: titan
+    - model: tcpp20001
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - model: tcpp20002
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - model: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - model: zkns001
+    - model: ohcpc01
+      unofficial: yes
+      adapter: titan
+
+switch_japanmemnanki:
+  name: "Japanese Rail Sim Memorial: JR Central Kiha 85 Limited Express Nanki"
+  namejp: "鉄道にっぽん！メモリアル ＪＲ東海 キハ８５ 特急南紀 編"
+  date: 2024-12-19
+  code: "HAC-P-BLUSA"
+  platform: switch
+  image: "switch_japanmemnanki.jpg"
+  ref: "/software_other/switch/japanmemnanki"
   controllers:
     - model: dgoc44u
       unofficial: yes
