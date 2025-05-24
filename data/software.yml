@@ -651,6 +651,15 @@ pc_jreasttrainsimulator:
   controllers:
     - model: zkns001
 
+pc_tramcityhakodate:
+  name: "Tramcity Hakodate"
+  date: 2024-01-04
+  platform: pc
+  url: "https://store.steampowered.com/app/2614000/TRAMCITY_HAKODATE/"
+  ref: "/software_other/pc/tramcityhakodate"
+  controllers:
+    - model: zkns001
+
 switch_yamanote:
   name: "Densha de GO! Hashirō Yamanote‑sen"
   namejp: "電車でGO!! はしろう山手線"
@@ -851,6 +860,35 @@ switch_japanmemnanki:
   platform: switch
   image: "switch_japanmemnanki.jpg"
   ref: "/software_other/switch/japanmemnanki"
+  controllers:
+    - model: dgoc44u
+      unofficial: yes
+      adapter: titan
+    - model: tcpp20001
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - model: tcpp20002
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - model: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - model: zkns001
+    - model: ohcpc01
+      unofficial: yes
+      adapter: titan
+
+switch_japanprotokyu:
+  name: "Japanese Rail Sim Real Pro: Tōkyū Electric Railway"
+  namejp: "鉄道にっぽん！RealPro 東京－神奈川！東急電鉄 編"
+  date: 2025-08-21
+  code: "HAC-P-?????"
+  platform: switch
+  image: "switch_japanprotokyu.jpg"
+  ref: "/software_other/switch/japanprotokyu"
   controllers:
     - model: dgoc44u
       unofficial: yes
