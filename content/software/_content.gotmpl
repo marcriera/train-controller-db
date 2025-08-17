@@ -1,0 +1,34 @@
+{{ range $systems := .Site.Data.series }}
+  {{ $shortcode := replace "{{< software-table-series >}}SERIES_ID{{< /software-table-series >}}" "SERIES_ID" .id }}
+  {{ $content := dict
+    "mediaType" "text/markdown"
+    "value" $shortcode
+  }}
+  {{ $params := dict "hidden" "true" }}
+  {{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" .id
+    "title" .name
+    "weight" .sort
+    "params" $params
+  }}
+  {{ $.AddPage $page }}
+{{ end }}
+
+{{ range $systems := .Site.Data.system }}
+  {{ $shortcode := replace "{{< software-table-system >}}SYSTEM_ID{{< /software-table-system >}}" "SYSTEM_ID" .id }}
+  {{ $content := dict
+    "mediaType" "text/markdown"
+    "value" $shortcode
+  }}
+  {{ $params := dict "hidden" "true" }}
+  {{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" .id
+    "title" .name
+    "params" $params
+  }}
+  {{ $.AddPage $page }}
+{{ end }}

@@ -1,6 +1,6 @@
 ---
 title: "Acknowledgements"
-_build:
+build:
   list: never
 ---
 

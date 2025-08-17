@@ -1,4 +1,4 @@
-dreamcast_densha2:
+- id: dreamcast_densha2
   name_en: "Densha de GO! 2 Kōsoku-hen 3000 Bandai"
   name: "電車でGO!2高速編3000番台"
   date: 2000-01-20
@@ -8,7 +8,7 @@ dreamcast_densha2:
   controllers:
     - model: tcpp20004
 
-n64_densha2:
+- id: n64_densha2
   name_en: "Densha de GO! 64"
   name: "電車でGO！64"
   date: 1999-07-23
@@ -19,7 +19,7 @@ n64_densha2:
     - model: tcpp20003
       notes: "Connect standard controller to P1 and train controller to P3."
 
-saturn_densha:
+- id: saturn_densha
   name_en: "Densha de GO! EX"
   name: "電車でGO！EX"
   date: 1998-10-01
@@ -30,7 +30,7 @@ saturn_densha:
     - model: tc5175290
       notes: "Select controller on game startup."
 
-pc-windows_densha:
+- id: pc-windows_densha
   name_en: "Densha de GO!"
   name: "電車でGO！"
   date: 1999-04-23
@@ -43,7 +43,7 @@ pc-windows_densha:
       notes: "Original release requires update."
     - model: dgoc44
 
-pc-windows_densha2:
+- id: pc-windows_densha2
   name_en: "Densha de GO! 2 Kōsoku-hen"
   name: "電車でGO！2高速編"
   date: 1999-03-18
@@ -56,7 +56,7 @@ pc-windows_densha2:
       notes: "Original release requires update."
     - model: dgoc44
 
-pc-windows_pro:
+- id: pc-windows_pro
   name_en: "Densha de GO! Professional"
   name: "電車でGO！プロフェッショナル仕様"
   date: 2001-06-15
@@ -67,7 +67,7 @@ pc-windows_pro:
     - model: dgoc44u
     - model: dgoc44
 
-pc-windows_nagoya:
+- id: pc-windows_nagoya
   name_en: "Densha de GO! Nagoya Tetsudō-hen"
   name: "電車でGO！名古屋鉄道編"
   date: 2000-12-01
@@ -80,7 +80,7 @@ pc-windows_nagoya:
       notes: "Original release requires update."
     - model: dgoc44
 
-pc-windows_kisha:
+- id: pc-windows_kisha
   name_en: "Kisha de GO!"
   name: "汽車でGO！"
   date: 2001-02-09
@@ -93,7 +93,7 @@ pc-windows_kisha:
       notes: "Original release requires update."
     - model: dgoc44
 
-pc-windows_densha3:
+- id: pc-windows_densha3
   name_en: "Densha de GO! 3 Tsūkin-hen Daiya Kaisei"
   name: "電車でGO！3通勤編 ダイヤ改正"
   date: 2002-03-21
@@ -104,7 +104,7 @@ pc-windows_densha3:
     - model: dgoc44u
     - model: dgoc44
 
-pc-windows_shinkansen:
+- id: pc-windows_shinkansen
   name_en: "Densha de GO! Shinkansen San'yō Shinkansen-hen"
   name: "電車でGO！新幹線 山陽新幹線編"
   date: 2002-12-13
@@ -115,7 +115,7 @@ pc-windows_shinkansen:
     - model: dgoc44u
     - model: dgoc44
 
-pc-windows_ryojouhen:
+- id: pc-windows_ryojouhen
   name_en: "Densha de GO! Ryojōhen"
   name: "電車でGO!旅情編"
   date: 2003-06-05
@@ -126,7 +126,7 @@ pc-windows_ryojouhen:
     - model: dyc288
     - model: dgoc44u
 
-pc-windows_pro2:
+- id: pc-windows_pro2
   name_en: "Densha de GO! Professional 2"
   name: "電車でGO!プロフェッショナル2"
   date: 2003-04-30
@@ -137,7 +137,7 @@ pc-windows_pro2:
     - model: dyc288
     - model: dgoc44u
 
-pc-windows_final:
+- id: pc-windows_final
   name_en: "Densha de GO! Final"
   name: "電車でGO! FINAL"
   date: 2004-12-17
@@ -148,7 +148,7 @@ pc-windows_final:
     - model: dyc288
     - model: dgoc44u
 
-ps1_densha:
+- id: ps1_densha
   name_en: "Densha de GO!"
   name: "電車でGO！"
   date: 1997-12-18
@@ -160,7 +160,7 @@ ps1_densha:
     - model: tcpp20001
     - model: slph00051
 
-ps1_densha2:
+- id: ps1_densha2
   name_en: "Densha de GO! 2 Kōsoku-hen"
   name: "電車でGO！2高速編"
   date: 1999-03-18
@@ -172,7 +172,7 @@ ps1_densha2:
     - model: tcpp20001
     - model: slph00051
 
-ps1_pro:
+- id: ps1_pro
   name_en: "Densha de GO! Professional"
   name: "電車でGO！プロフェッショナル仕様"
   date: 1999-12-09
@@ -184,7 +184,7 @@ ps1_pro:
     - model: tcpp20001
     - model: slph00051
 
-ps1_nagoya:
+- id: ps1_nagoya
   name_en: "Densha de GO! Nagoya Tetsudō-hen"
   name: "電車でGO！名古屋鉄道編"
   date: 2000-01-27
@@ -197,7 +197,7 @@ ps1_nagoya:
     - model: tcpp20001
     - model: slph00051
 
-ps1_kisha:
+- id: ps1_kisha
   name_en: "Kisha de GO!"
   name: "汽車でGO！"
   date: 2000-03-23
@@ -209,7 +209,7 @@ ps1_kisha:
     - model: tcpp20001
     - model: slph00051
 
-ps2_densha3:
+- id: ps2_densha3
   name_en: "Densha de GO! 3 Tsūkin-hen"
   name: "電車でGO！3通勤編"
   date: 2001-03-15
@@ -225,7 +225,7 @@ ps2_densha3:
     - model: slph00051
     - model: tcpp20009
 
-ps2_shinkansen:
+- id: ps2_shinkansen
   name_en: "Densha de GO! Shinkansen San'yō Shinkansen-hen"
   name: "電車でGO！新幹線 山陽新幹線編"
   date: 2001-09-20
@@ -242,7 +242,7 @@ ps2_shinkansen:
     - model: slph00051
     - model: tcpp20009
 
-ps2_ryojouhen:
+- id: ps2_ryojouhen
   name_en: "Densha de GO! Ryojōhen"
   name: "電車でGO!旅情編"
   date: 2002-07-25
@@ -266,7 +266,7 @@ ps2_ryojouhen:
       adapter: ps2_cheats
     - model: tcpp20009
 
-ps2_pro2:
+- id: ps2_pro2
   name_en: "Densha de GO! Professional 2"
   name: "電車でGO!プロフェッショナル2"
   date: 2003-02-27
@@ -290,7 +290,7 @@ ps2_pro2:
       adapter: ps2_cheats
     - model: tcpp20009
 
-ps2_final:
+- id: ps2_final
   name_en: "Densha de GO! Final"
   name: "電車でGO! FINAL"
   date: 2004-05-27
@@ -314,7 +314,7 @@ ps2_final:
       adapter: ps2_cheats
     - model: tcpp20009
 
-ps2_trainyamanote:
+- id: ps2_trainyamanote
   name_en: "Train Simulator Real: THE Yamanote Line"
   name: "Train Simulator Real THE 山手線"
   date: 2001-10-04
@@ -330,7 +330,7 @@ ps2_trainyamanote:
       notes: "P5/B8 cartridge."
     - model: tcpp20009
 
-ps2_trainkeihin:
+- id: ps2_trainkeihin
   name_en: "Train Simulator Real: THE Keihin Electric Express Railway"
   name: "Train Simulator Real THE 京浜急行"
   date: 2002-10-31
@@ -346,7 +346,7 @@ ps2_trainkeihin:
       notes: "P5/B5 cartridge."
     - model: cotm02001
 
-ps2_trainmidosuji:
+- id: ps2_trainmidosuji
   name_en: "Train Simulator: Midōsuji Line"
   name: "Train Simulator 御堂筋線"
   date: 2003-10-30
@@ -362,7 +362,7 @@ ps2_trainmidosuji:
       notes: "P4/B2-B7, P5/B5 cartridges."
     - model: cotm02001
 
-ps2_traindensha:
+- id: ps2_traindensha
   name_en: "Train Simulator + Densha de GO!: Tokyu Line"
   name: "Train Simulator+電車でGO! 東京急行編"
   date: 2003-12-18
@@ -378,7 +378,7 @@ ps2_traindensha:
       notes: "P4/B7, P5/B5 cartridges."
     - model: cotm02001
 
-ps2_trainkeitokei:
+- id: ps2_trainkeitokei
   name_en: "Train Simulator: Keisei, Toei Asakusa, Keikyu Lines"
   name: "Train Simulator 京成・都営浅草・京急線"
   date: 2005-08-25
@@ -395,7 +395,7 @@ ps2_trainkeitokei:
     - model: tcpp20011
     - model: cotm02001
 
-ps2_trainshinkansen:
+- id: ps2_trainshinkansen
   name_en: "Train Simulator: Kyūshū Shinkansen"
   name: "Train Simulator 九州新幹線"
   date: 2005-10-01
@@ -411,7 +411,7 @@ ps2_trainshinkansen:
       notes: "P5/B7, P13/B7 cartridges."
     - model: tcpp20011
 
-ps3_railfanchicago:
+- id: ps3_railfanchicago
   name_en: "Railfan: Chicago Transit Authority Brown Line"
   name: "レールファン"
   date: 2006-12-20
@@ -424,7 +424,7 @@ ps3_railfanchicago:
       notes: "P5/B8 cartridge."
     - model: tcpp20009
 
-ps3_railfantaiwan:
+- id: ps3_railfantaiwan
   name_en: "Railfan: Taiwan High Speed Rail"
   name: "レールファン 台湾高鉄"
   date: 2007-07-12
@@ -433,7 +433,7 @@ ps3_railfantaiwan:
   series: other
   image: "ps3_railfantaiwan.jpg"
 
-ps4_yamanote:
+- id: ps4_yamanote
   name_en: "Densha de GO! Hashirō Yamanote‑sen"
   name: "電車でGO!! はしろう山手線"
   date: 2020-12-03
@@ -464,7 +464,7 @@ ps4_yamanote:
       unofficial: yes
       adapter: titan
 
-ps4_japankyoto:
+- id: ps4_japankyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
   name: "電鉄道にっぽん！路線たび 叡山電車編"
   date: 2020-12-10
@@ -492,7 +492,7 @@ ps4_japankyoto:
       unofficial: yes
       adapter: titan
 
-pc-windows_trainsim:
+- id: pc-windows_trainsim
   name: "Train Simulator"
   name_en: "Train Simulator"
   date: 1995-08-19
@@ -505,7 +505,7 @@ pc-windows_trainsim:
     - model: vok00106
       notes: "Many entries require companion software to use the controller."
 
-pc-windows_trainsimplus:
+- id: pc-windows_trainsimplus
   name: "Train Simulator PLUS"
   name_en: "Train Simulator PLUS"
   date: 2000-07-19
@@ -516,7 +516,7 @@ pc-windows_trainsimplus:
     - model: vok00105
     - model: vok00106
 
-pc-windows_bve:
+- id: pc-windows_bve
   name: "BVE Trainsim"
   name_en: "BVE Trainsim"
   date: 2011-09-05
@@ -560,7 +560,7 @@ pc-windows_bve:
     - model: tcpp20009
       adapter: bve_plugin
 
-pc-windows_openbve:
+- id: pc-windows_openbve
   name: "OpenBVE"
   name_en: "OpenBVE"
   date: 2009-03-23
@@ -608,7 +608,7 @@ pc-windows_openbve:
     - model: tcpp20009
       adapter: bve_plugin
 
-pc-windows_traincrew:
+- id: pc-windows_traincrew
   name: "Train Crew"
   name_en: "Train Crew"
   date: 2021-09-30
@@ -624,7 +624,7 @@ pc-windows_traincrew:
     - model: ohcpc01
     - model: dgoc44u
 
-pc-windows_hmmsimmetro:
+- id: pc-windows_hmmsimmetro
   name: "Hmmsim Metro"
   name_en: "Hmmsim Metro"
   date: 2021-06-25
@@ -638,14 +638,14 @@ pc-windows_hmmsimmetro:
       notes: "Set power to 4 and brake to 7."
     - model: zkns001
 
-pc-windows_japankyoto:
+- id: pc-windows_japankyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
   name: "電鉄道にっぽん！路線たび 叡山電車編"
   date: 2022-06-22
   system: pc-windows
   series: japanese-rail-sim
 
-pc-windows_japanmeitetsu:
+- id: pc-windows_japanmeitetsu
   name_en: "Japanese Rail Sim: Operating the MEITETSU Line"
   name: "鉄道にっぽん！RealPro 名古屋鉄道編 PC Edition"
   date: 2023-04-27
@@ -655,7 +655,7 @@ pc-windows_japanmeitetsu:
   controllers:
     - model: zkns001
 
-pc-windows_jreasttrainsimulator:
+- id: pc-windows_jreasttrainsimulator
   name: "JR EAST Train Simulator"
   name_en: "JR EAST Train Simulator"
   date: 2022-11-15
@@ -665,7 +665,7 @@ pc-windows_jreasttrainsimulator:
   controllers:
     - model: zkns001
 
-pc-windows_tramcityhakodate:
+- id: pc-windows_tramcityhakodate
   name: "Tramcity Hakodate"
   name_en: "Tramcity Hakodate"
   date: 2024-01-04
@@ -675,7 +675,7 @@ pc-windows_tramcityhakodate:
   controllers:
     - model: zkns001
 
-switch_yamanote:
+- id: switch_yamanote
   name_en: "Densha de GO! Hashirō Yamanote‑sen"
   name: "電車でGO!! はしろう山手線"
   date: 2021-03-18
@@ -704,7 +704,7 @@ switch_yamanote:
       unofficial: yes
       adapter: titan
 
-switch_japankyoto:
+- id: switch_japankyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
   name: "電鉄道にっぽん！路線たび 叡山電車編"
   date: 2019-11-18
@@ -713,7 +713,7 @@ switch_japankyoto:
   series: japanese-rail-sim
   image: "switch_japankyoto.jpg"
 
-switch_japansangi:
+- id: switch_japansangi
   name_en: "Japanese Rail Sim: Sangi Railway"
   name: "電鉄道にっぽん！路線たび 三岐鉄道編"
   date: 2021-12-23
@@ -722,7 +722,7 @@ switch_japansangi:
   series: japanese-rail-sim
   image: "switch_japansangi.jpg"
 
-switch_japanakechi:
+- id: switch_japanakechi
   name_en: "Japanese Rail Sim: Akechi Railway"
   name: "電鉄道にっぽん！路線たび 明知鉄道編"
   date: 2022-08-25
@@ -751,7 +751,7 @@ switch_japanakechi:
       unofficial: yes
       adapter: titan
 
-switch_japanpronagoya:
+- id: switch_japanpronagoya
   name_en: "Japanese Rail Sim Real Pro: Nagoya Railway"
   name: "電鉄道にっぽん！Real Pro 特急走行!名古屋鉄道編"
   date: 2022-12-15
@@ -780,7 +780,7 @@ switch_japanpronagoya:
       unofficial: yes
       adapter: titan
 
-switch_japanexnagaragawa:
+- id: switch_japanexnagaragawa
   name_en: "Japanese Rail Sim EX: Nagaragawa Railway"
   name: "鉄道にっぽん！路線たびEX 清流運転 長良川鉄道編"
   date: 2023-08-24
@@ -809,7 +809,7 @@ switch_japanexnagaragawa:
       unofficial: yes
       adapter: titan
 
-switch_japanproodakyu:
+- id: switch_japanproodakyu
   name_en: "Japanese Rail Sim Real Pro: Odakyu Electric Railway"
   name: "鉄道にっぽん！RealPro 特急ロマンスカー！小田急電鉄編"
   date: 2023-12-14
@@ -838,7 +838,7 @@ switch_japanproodakyu:
       unofficial: yes
       adapter: titan
 
-switch_japanexhakone:
+- id: switch_japanexhakone
   name_en: "Japanese Rail Sim Hakone"
   name: "鉄道にっぽん！路線たびＥＸ 登山電車 小田急箱根編"
   date: 2024-09-19
@@ -867,7 +867,7 @@ switch_japanexhakone:
       unofficial: yes
       adapter: titan
 
-switch_japanmemnanki:
+- id: switch_japanmemnanki
   name_en: "Japanese Rail Sim Memorial: JR Central Kiha 85 Limited Express Nanki"
   name: "鉄道にっぽん！メモリアル ＪＲ東海 キハ８５ 特急南紀 編"
   date: 2024-12-19
@@ -896,7 +896,7 @@ switch_japanmemnanki:
       unofficial: yes
       adapter: titan
 
-switch_japanprotokyu:
+- id: switch_japanprotokyu
   name_en: "Japanese Rail Sim Real Pro: Tōkyū Electric Railway"
   name: "鉄道にっぽん！RealPro 東京－神奈川！東急電鉄 編"
   date: 2025-08-21
@@ -925,7 +925,7 @@ switch_japanprotokyu:
       unofficial: yes
       adapter: titan
 
-wii_shinkansen:
+- id: wii_shinkansen
   name_en: "Densha de GO! Shinkansen EX San'yō Shinkansen-hen"
   name: "電車でGO！新幹線EX 山陽新幹線編"
   date: 2007-03-01

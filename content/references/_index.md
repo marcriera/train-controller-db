@@ -1,6 +1,6 @@
 ---
 title: "References"
-_build:
+build:
   list: never
 ---
 
