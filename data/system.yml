@@ -1,0 +1,20 @@
+- id: dreamcast
+  name: "Sega Dreamcast"
+- id: n64
+  name: "Nintendo 64"
+- id: ps1
+  name: "Sony PlayStation"
+- id: ps2
+  name: "Sony PlayStation 2"
+- id: ps3
+  name: "Sony PlayStation 3"
+- id: ps4
+  name: "Sony PlayStation 4"
+- id: saturn
+  name: "Sega Saturn"
+- id: switch
+  name: "Nintendo Switch"
+- id: wii
+  name: "Nintendo Wii"
+- id: pc-windows
+  name: "PC (Windows)"

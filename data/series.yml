@@ -1,0 +1,12 @@
+densha-de-go:
+  name: "Densha de GO!"
+  sort: 1
+japanese-rail-sim:
+  name: "Japanese Rail Sim"
+  sort: 2
+train-simulator:
+  name: "Train Simulator"
+  sort: 3
+other:
+  name: "Other games"
+  sort: 99

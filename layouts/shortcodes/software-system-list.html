@@ -1,0 +1,23 @@
+{{ with .Site.Data.software }}
+  <table>
+    <colgroup>
+      <col class="col-model">
+      <col class="col-support">
+      <col class="col-notes">
+    </colgroup>
+    <tr>
+      <th>Name</th>
+      <th>Release date</th>
+      <th>Series</th>
+    </tr>
+    {{ range sort . "date" }}
+      {{ if eq .system $.Inner }}
+          <tr>
+            <td>{{ .name_en }}</td>
+            <td>{{ .date }}</td>
+            <td>{{ .series }}</td>
+          </tr>
+      {{ end }}
+    {{ end }}
+  </table>
+{{ end }}

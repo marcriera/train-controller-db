@@ -41,7 +41,7 @@
   {{ range sort .Site.Data.software "name" }}
   {{ $software_name := .name }}
   {{ $software_ref := .ref }}
-  {{ $software_platform := .platform }}
+  {{ $software_platform := .system }}
   {{ range .controllers }}
   {{ if eq .model ($.Get 0) }}
   <tr>

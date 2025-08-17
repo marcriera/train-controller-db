@@ -1,0 +1,15 @@
+{{ range $systems := .Site.Data.system }}
+  {{ $shortcode := replace "{{< software-system-list >}}SYSTEM_ID{{< /software-system-list >}}" "SYSTEM_ID" .id }}
+  {{ $content := dict
+    "mediaType" "text/markdown"
+    "value" $shortcode
+  }}
+  {{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" .id
+    "title" .name
+  }}
+  {{ $.AddPage $page }}
+{{ end }}
+

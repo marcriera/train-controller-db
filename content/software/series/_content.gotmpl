@@ -1,0 +1,16 @@
+{{ range $systems := .Site.Data.series }}
+  {{ $shortcode := replace "{{< software-series-list >}}SERIES_ID{{< /software-series-list >}}" "SERIES_ID" . }}
+  {{ $content := dict
+    "mediaType" "text/markdown"
+    "value" $shortcode
+  }}
+  {{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" .
+    "title" .name
+    "weight" .sort
+  }}
+  {{ $.AddPage $page }}
+{{ end }}
+
