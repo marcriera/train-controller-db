@@ -1,3 +1,6 @@
+{{ range $software := $.Site.Data.software }}
+{{ if eq .id $.Inner }}
+
 ## Overview
 
 <table class="datatable">
@@ -7,39 +10,38 @@
     <col class="col-data">
   </colgroup>
   <tr>
-    <td rowspan="0" id="image">{{ if (index .Site.Data.software_old (.Get 0)).image}}<img src="/images/software/{{ (index .Site.Data.software_old (.Get 0)).image }}"/>{{ end }}</td>
+    <td rowspan="0" id="image">{{ if .image}}<img src="/images/software/{{ (index .Site.Data.software_old (.Inner)).image }}"/>{{ end }}</td>
     <td><strong>Name</strong></td>
-    <td>{{ (index .Site.Data.software_old (.Get 0)).name }}</td>
+    <td>{{ .name_en }}</td>
   </tr>
-  {{ if (index .Site.Data.software_old (.Get 0)).namejp }}
+  {{ if .name }}
   <tr>
-    <td><strong>Japanese name</strong></td>
-    <td>{{ (index .Site.Data.software_old (.Get 0)).namejp }}</td>
+    <td><strong>Original name</strong></td>
+    <td>{{ .name }}</td>
   </tr>
   {{ end }}
   <tr>
     <td><strong>Release date</strong></td>
-    <td>{{ (index .Site.Data.software_old (.Get 0)).date | time.Format ":date_long" }}</td>
+    <td>{{ .date | time.Format ":date_long" }}</td>
   </tr>
-  {{ if (index .Site.Data.software_old (.Get 0)).code }}
+  {{ if .code }}
   <tr>
     <td><strong>Serial code</strong></td>
-    <td>{{ (index .Site.Data.software_old (.Get 0)).code }}</td>
+    <td>{{ .code }}</td>
   </tr>
   {{ end }}
-  {{ if (index .Site.Data.software_old (.Get 0)).url }}
+  {{ if .url }}
   <tr>
     <td><strong>Website</strong></td>
-    <td><a href="{{ (index .Site.Data.software_old (.Get 0)).url }}" target="_blank">{{ (index .Site.Data.software_old (.Get 0)).url }}</a></td>
+    <td><a href="{{ .url }}" target="_blank">{{ .url }}</a></td>
   </tr>
   {{ end }}
   <tr>
     <td><strong>Notes</strong></td>
-    <td>{{ (index .Site.Data.software_old (.Get 0)).notes }}</td>
+    <td>{{ .notes }}</td>
   </tr>
-</table> 
+</table>
 
-{{ with (index .Site.Data.software_old (.Get 0)).controllers }}
 ## Supported controllers
 
 <table class="compattable">
@@ -53,12 +55,18 @@
     <th>Support</th>
     <th>Notes</th>
   </tr>
-  {{ range . }}
+  {{ range $controller := sort $.Site.Data.controller "name" }}
+  {{ range $supported_controller := $software.controllers }}
+  {{ if eq $supported_controller.model $controller.id }}
   <tr>
-    <td><a href="{{ (index $.Site.Data.controllers .model).ref }}">{{ (index $.Site.Data.controllers .model).name }}</a></td>
+    <td>{{ $controller.name }}</td>
     <td id="{{ if or .unofficial .partial }}partial{{ else }}native{{ end }}">{{ if .unofficial }}Unofficial{{ else if .partial }}Partial{{ else }}Native{{ end }}</td>
     <td>{{ .notes }} {{ if .adapter }}<a href="{{ index $.Site.Data.adapters .adapter "ref" }}">{{ index $.Site.Data.adapters .adapter "notes" }}</a>{{ end }}</td>
   </tr>
   {{ end }}
+  {{ end }}
+  {{ end }}
 </table>
+
+{{ end }}
 {{ end }}

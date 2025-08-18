@@ -8,7 +8,7 @@
   controllers:
     - model: tcpp20004
 
-- id: n64_densha2
+- id: n64_densha64
   name_en: "Densha de GO! 64"
   name: "電車でGO！64"
   date: 1999-07-23
