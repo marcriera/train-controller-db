@@ -1,31 +1,35 @@
+{{ range $controller := $.Site.Data.controller }}
+{{ if eq .id $.Inner }}
+{{ $image := printf "static/images/controller/%s.jpg" .id }}
+
 ## Overview
 
 <table class="datatable">
   <colgroup>
-    <col class="col-pic">
-    <col class="col-headers">
+    {{ if fileExists $image }}<col class="col-pic">{{ end }}
+  <col class="col-headers">
     <col class="col-data">
   </colgroup>
   <tr>
-    <td rowspan="0" id="image">{{ if (index .Site.Data.controllers_old (.Get 0)).image}}<img src="/images/controllers/{{ (index .Site.Data.controllers_old (.Get 0)).image }}"/>{{ end }}</td>
-    <td><strong>Name</strong></td>
-    <td>{{ (index .Site.Data.controllers_old (.Get 0)).name }}</td>
+    {{ if fileExists $image }}<td rowspan="0" id="image"><img src='{{ printf "images/controller/%s.jpg" .id | relLangURL }}'/></td>{{ end }}
+  <td><strong>Name</strong></td>
+    <td>{{ .name }}</td>
   </tr>
   <tr>
     <td><strong>Release date</strong></td>
-    <td>{{ (index .Site.Data.controllers_old (.Get 0)).date | time.Format ":date_long" }}</td>
+    <td>{{ .date | time.Format ":date_long" }}</td>
   </tr>
   <tr>
     <td><strong>Serial code</strong></td>
-    <td>{{ (index .Site.Data.controllers_old (.Get 0)).code }}</td>
+    <td>{{ .code }}</td>
   </tr>
   <tr>
     <td><strong>Notes</strong></td>
-    <td>{{ (index .Site.Data.controllers_old (.Get 0)).notes }}</td>
+    <td>{{ .notes }}</td>
   </tr>
 </table>
 
-## Supported software (WIP)
+## Supported software
 
 <table class="compattable">
   <colgroup>
@@ -38,14 +42,11 @@
     <th>Support</th>
     <th>Notes</th>
   </tr>
-  {{ range sort .Site.Data.software "name" }}
-  {{ $software_name := .name }}
-  {{ $software_ref := .ref }}
-  {{ $software_platform := .system }}
-  {{ range .controllers }}
-  {{ if eq .model ($.Get 0) }}
+  {{ range $software := sort $.Site.Data.software "name_en" }}
+  {{ range $supported_controller := $software.controllers }}
+  {{ if eq $supported_controller.model $controller.id }}
   <tr>
-    <td><a href="{{ $software_ref }}">{{ $software_name }} ({{ index $.Site.Data.platforms $software_platform }})</a></td>
+    <td><a href='{{ "software" | relURL }}/{{ $software.id }}'>{{ $software.name_en }}</a></td>
     <td id="{{ if or .unofficial .partial }}partial{{ else }}native{{ end }}">{{ if .unofficial }}Unofficial{{ else if .partial }}Partial{{ else }}Native{{ end }}</td>
     <td>{{ .notes }} {{ if .adapter }}<a href="{{ index $.Site.Data.adapters .adapter "ref" }}">{{ index $.Site.Data.adapters .adapter "notes" }}</a>{{ end }}</td>
   </tr>
@@ -54,4 +55,5 @@
   {{ end }}
 </table>
 
-## Technical details
+{{ end }}
+{{ end }}

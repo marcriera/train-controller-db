@@ -2,7 +2,9 @@
 title: 'Two handle controller "Type 2" (Sony PlayStation 2)'
 ---
 
-{{% controller-page "tcpp20009" %}}
+{{% controller-page %}}tcpp20009{{% /controller-page %}}
+
+## Technical details
 
 This controller has two handles (5 power notches and 8+emergency brake notches), a D-Pad and 6 buttons (Select, Start, A, B, C, D). In addition, it provides a door lamp and a 3.5 mm jack connector to plug a horn pedal. There are two rumble motors, one in each handle.
 

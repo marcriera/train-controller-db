@@ -1,10 +1,12 @@
 ---
-title: "Master Controller (PC)"
+title: "Master Controller II (PC)"
 ---
 
-{{% controller-page "vok00105" %}}
+{{% controller-page %}}vok00106{{% /controller-page %}}
 
-This controller has one handle (with adjustable notches), a reverser switch with 3 positions (F, N, B) and 4 buttons (S, A, B, C). It was manufactured by Pony Canyon. It requires external power to work, either with an included power supply or 4 AA-sized batteries.
+## Technical details
+
+This controller has two handles (power and brake, both with adjustable notches), a reverser switch with 3 positions (F, N, B) and 4 buttons (S, A, B, C). It was manufactured by Pony Canyon. It requires external power to work, either with an included power supply or 4 AA-sized batteries. It also supports connecting an included pedal.
 
 It connects to PC via serial cable, either directly via a DE-9 connector or with a USB adapter.
 
@@ -16,14 +18,11 @@ It connects to PC via serial cable, either directly via a DE-9 connector or with
 | **Stop bits**    | 1     |
 | **Flow control** | None  |
 
-Unlike other controllers, the notches in the combined power-brake handle are adjustable. On the underside of the controller there are a sliding switch, as well as a window with dip switches, to change gears. This change can be done with the controller turned off. The notch print beside the handle can also be changed to match the current gear setting.
+Unlike other controllers, the notches in the two handles are adjustable. There are two knobs, one on each side of the controller, to adjust the number of power and brake notches. This change can be done with the controller turned off. Next to the power handle there is a LED screen showing the current notch, and the notch print beside the brake handle can also be changed to match the current gear setting.
 
-The are 8 possible gear settings:
+The power handle supports 3 to 6 notches, plus *EX* (6 notches without click). The brake handle supports 5 to 8 notches, plus *EX* (8 notches without click).
 
-|               | **Type A** | **Type B** | **Type C** | **Type D** | **Type E** | **Type F** | **Type G** | **Type H**   |
-|---------------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:------------:|
-| Power notches | 4          | 3          | 5          | 4          | 4          | 5          | 5          | 6 (no click) |
-| Brake notches | 5          | 7          | 5          | 7          | 8          | 8          | 7          | 8 (no click) |
+The two handles are interlocked; it is only possible to move one handle at a time.
 
 ### Input
 
@@ -50,3 +49,4 @@ Events for the buttons are the following. The first event is reported when the b
 | S           | A           | B           | C           |
 |:-----------:|:-----------:|:-----------:|:-----------:|
 | TSK99/TSK00 | TSX99/TSX00 | TSY99/TSY00 | TSZ99/TSZ00 |
+

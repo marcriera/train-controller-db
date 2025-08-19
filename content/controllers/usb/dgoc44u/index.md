@@ -2,7 +2,9 @@
 title: "Two handle controller (PC)"
 ---
 
-{{% controller-page "dgoc44u" %}}
+{{% controller-page %}}dgoc44u{{% /controller-page %}}
+
+## Technical details
 
 This controller has two handles (5 power notches and 8+emergency brake notches) and 6 buttons (Select, Start, A, B, C, D).
 

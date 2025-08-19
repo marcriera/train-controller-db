@@ -1,12 +1,12 @@
 {{ range $system := sort $.Site.Data.system "name" }}
 
-## {{ .name }}
+## {{ .name }} {#{{ .id }}}
 
-<table>
+<table class="softwaretable">
   <colgroup>
-    <col class="col-model">
-    <col class="col-support">
-    <col class="col-notes">
+    <col class="col-name">
+    <col class="col-date">
+    <col class="col-extra">
   </colgroup>
   <tr>
     <th>Name</th>
@@ -16,9 +16,11 @@
   {{ range $software := sort $.Site.Data.software "date" }}
     {{ if eq .system $system.id }}
   <tr>
-    <td>{{ .name_en }}</td>
-    <td>{{ .date }}</td>
-    <td>{{ range $series := $.Site.Data.series }}{{ if eq .id $software.series }}{{ .name }}{{ end }}{{ end }}</td>
+    <td><a href='{{ "software" | relURL }}/{{ .id }}'>{{ .name_en }}</a></td>
+    <td>{{ .date | time.Format ":date_long" }}</td>
+    {{ range $series := $.Site.Data.series }}{{ if eq .id $software.series }}
+  <td><a href='{{ "software/series#" | relURL }}{{ .id }}'>{{ .name }}</a></td>
+    {{ end }}{{ end }}
   </tr>
     {{ end }}
   {{ end }}

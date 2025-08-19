@@ -1,7 +1,7 @@
 baseURL = "https://marcriera.github.io/ddgo-controller-docs"
 languageCode = "en-us"
-title = "Densha de GO! controller documentation"
-canonifyURLs = true
+defaultContentLanguage = "en"
+title = "Train Controller Database"
 
 [params]
 disableSearch = true

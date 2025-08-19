@@ -2,7 +2,9 @@
 title: "Two handle controller, game port (PC)"
 ---
 
-{{% controller-page "dgoc44" %}}
+{{% controller-page %}}dgoc44{{% /controller-page %}}
+
+## Technical details
 
 This is the original controller for the Microsoft Windows releases. This controller has two handles (5 power notches and 8+emergency brake notches) and 3 buttons (A, B, C).
 

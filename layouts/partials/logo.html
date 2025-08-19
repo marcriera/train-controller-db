@@ -27,7 +27,7 @@
               }
             }
           </style>
-          <a id="logo" href="{{ .Site.Params.landingPageURL | default "/" | relLangURL }}">
-            <img src="/images/logo_big.png"><br>
+          <a id="logo" href="{{ .Site.BaseURL }}">
+            <img src='{{ "images/logo_big.png" | relLangURL }}'><br>
             Train controller database
           </a>

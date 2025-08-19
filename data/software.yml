@@ -191,7 +191,6 @@
   code: "SLPM-86424"
   system: ps1
   series: densha-de-go
-  image: "ps2_nagoya.jpg"
   controllers:
     - model: tcpp20002
     - model: tcpp20001
@@ -216,7 +215,6 @@
   code: "SLPM-62049"
   system: ps2
   series: densha-de-go
-  image: "ps2_densha3.jpg"
   controllers:
     - model: tcpp20002
     - model: sotp031201
@@ -232,7 +230,6 @@
   code: "SLPM-65039"
   system: ps2
   series: densha-de-go
-  image: "ps2_shinkansen.jpg"
   controllers:
     - model: tcpp20002
     - model: sotp031201
@@ -249,7 +246,6 @@
   code: "SLPM-65148"
   system: ps2
   series: densha-de-go
-  image: "ps2_ryojouhen.jpg"
   controllers:
     - model: tcpp20002
       unofficial: yes
@@ -273,7 +269,6 @@
   code: "SLPM-65243"
   system: ps2
   series: densha-de-go
-  image: "ps2_pro2.jpg"
   controllers:
     - model: tcpp20002
       unofficial: yes
@@ -297,7 +292,6 @@
   code: "SLPM-65590"
   system: ps2
   series: densha-de-go
-  image: "ps2_final.jpg"
   controllers:
     - model: tcpp20002
       unofficial: yes
@@ -418,7 +412,6 @@
   code: "BLJM-60013"
   system: ps3
   series: other
-  image: "ps3_railfanchicago.jpg"
   controllers:
     - model: sotp031201
       notes: "P5/B8 cartridge."
@@ -431,7 +424,6 @@
   code: "BLJS-10012"
   system: ps3
   series: other
-  image: "ps3_railfantaiwan.jpg"
 
 - id: ps4_yamanote
   name_en: "Densha de GO! Hashirō Yamanote‑sen"
@@ -440,7 +432,6 @@
   code: "PLJM-16643"
   system: ps4
   series: densha-de-go
-  image: "ps4_yamanote.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -471,7 +462,6 @@
   code: "PLJM-16754"
   system: ps4
   series: japanese-rail-sim
-  image: "ps4_japankyoto.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -682,7 +672,6 @@
   code: "HAC-P-A2BGA"
   system: switch
   series: densha-de-go
-  image: "switch_yamanote.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -711,7 +700,6 @@
   code: "HAC-P-AU9WA"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japankyoto.jpg"
 
 - id: switch_japansangi
   name_en: "Japanese Rail Sim: Sangi Railway"
@@ -720,7 +708,6 @@
   code: "HAC-P-A6R9A"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japansangi.jpg"
 
 - id: switch_japanakechi
   name_en: "Japanese Rail Sim: Akechi Railway"
@@ -729,7 +716,6 @@
   code: "HAC-P-A8YZA"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japanakechi.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -758,7 +744,6 @@
   code: "HAC-P-A9QAA"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japanpronagoya.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -787,7 +772,6 @@
   code: "HAC-P-BCXNA"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japanexnagaragawa.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -816,7 +800,6 @@
   code: "HAC-P-BE2DA"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japanproodakyu.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -845,7 +828,6 @@
   code: "HAC-P-BKFUA"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japanexhakone.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -874,7 +856,6 @@
   code: "HAC-P-BLUSA"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japanmemnanki.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -903,7 +884,6 @@
   code: "HAC-P-BPM8A"
   system: switch
   series: japanese-rail-sim
-  image: "switch_japanprotokyu.jpg"
   controllers:
     - model: dgoc44u
       unofficial: yes
@@ -932,6 +912,5 @@
   code: "RVL-P-RG4J"
   system: wii
   series: densha-de-go
-  image: "wii_shinkansen.jpg"
   controllers:
     - model: tcpp20017

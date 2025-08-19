@@ -2,7 +2,9 @@
 title: "One handle controller (Nintendo Switch)"
 ---
 
-{{% controller-page "zkns001" %}}
+{{% controller-page %}}zkns001{{% /controller-page %}}
+
+## Technical details
 
 This controller has one handle (5 power notches and 8+emergency brake notches) and 16 buttons (the same as a Nintendo Switch Pro Controller, except the stick buttons). Internally, it is a HID-compliant joystick mimicking a Nintendo Switch Pro Controller. The stick buttons and the right stick are unused, and only the Y axis of the left stick is used.
 

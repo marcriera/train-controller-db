@@ -2,7 +2,9 @@
 title: "Multi Train Controller (Sony PlayStation 2)"
 ---
 
-{{% controller-page "sotp031201" %}}
+{{% controller-page %}}sotp031201{{% /controller-page %}}
+
+## Technical details
 
 This controller has one handle with several notch cartridges (P4/B7, P4/B2-B7, P5/B5, P5/B7, B5/B8, P13/B7), a D-Pad and 7 buttons (Select, Start, A, B, C, D, ATS). The A button can distinguish between "soft" and "hard" presses. In addition, the controller has four lamps.
 

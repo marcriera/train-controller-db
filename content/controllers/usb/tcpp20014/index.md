@@ -2,7 +2,9 @@
 title: "Ryojōhen controller (Sony PlayStation 2)"
 ---
 
-{{% controller-page "tcpp20014" %}}
+{{% controller-page %}}tcpp20014{{% /controller-page %}}
+
+## Technical details
 
 This controller has two handles (4 power notches and an analogue brake handle with three areas), a D-Pad and 7 buttons (Select, Start, Horn, Announce, Camera, Left doors, Right doors). In addition, it provides a 3.5 mm jack connector to plug a horn pedal.
 

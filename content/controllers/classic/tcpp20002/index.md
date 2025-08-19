@@ -2,7 +2,9 @@
 title: "Mamecon (Sony PlayStation)"
 ---
 
-{{% controller-page "tcpp20002" %}}
+{{% controller-page %}}tcpp20002{{% /controller-page %}}
+
+## Technical details
 
 The controller follows the same standard [internal operation](../tech) as other classic controllers. In addition, only the first and fourth unmarked positions are available.
 

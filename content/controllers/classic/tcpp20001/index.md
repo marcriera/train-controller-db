@@ -2,7 +2,9 @@
 title: "One handle controller (Sony PlayStation)"
 ---
 
-{{% controller-page "tcpp20001" %}}
+{{% controller-page %}}tcpp20001{{% /controller-page %}}
+
+## Technical details
 
 The controller follows the same standard [internal operation](../tech) as other classic controllers. As the controller only has one handle, brake and power cannot be set separately. In addition, only the first and fourth unmarked positions are available.
 

@@ -2,7 +2,9 @@
 title: "One handle controller (PC)"
 ---
 
-{{% controller-page "dgc255" %}}
+{{% controller-page %}}dgc255{{% /controller-page %}}
+
+## Technical details
 
 This controller has one handle (5 power notches and 8+emergency brake notches), a D-Pad and 6 buttons (Select, Start, A, B, C, D).
 

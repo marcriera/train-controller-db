@@ -2,7 +2,9 @@
 title: "Two handle controller (Sony PlayStation)"
 ---
 
-{{% controller-page "slph00051" %}}
+{{% controller-page %}}slph00051{{% /controller-page %}}
+
+## Technical details
 
 The controller follows the same standard [internal operation](../tech) as other classic controllers.
 

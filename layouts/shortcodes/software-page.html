@@ -1,16 +1,17 @@
 {{ range $software := $.Site.Data.software }}
 {{ if eq .id $.Inner }}
+{{ $image := printf "static/images/software/%s.jpg" .id }}
 
 ## Overview
 
 <table class="datatable">
   <colgroup>
-    <col class="col-pic">
-    <col class="col-headers">
+    {{ if fileExists $image }}<col class="col-pic">{{ end }}
+  <col class="col-headers">
     <col class="col-data">
   </colgroup>
   <tr>
-    <td rowspan="0" id="image">{{ if .image}}<img src="/images/software/{{ (index .Site.Data.software_old (.Inner)).image }}"/>{{ end }}</td>
+    {{ if fileExists $image }}<td rowspan="0" id="image"><img src='{{ printf "images/software/%s.jpg" .id | relLangURL }}'/></td>{{ end }}
     <td><strong>Name</strong></td>
     <td>{{ .name_en }}</td>
   </tr>

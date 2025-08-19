@@ -2,41 +2,35 @@
   name: "Train Mascon (Sony PlayStation 2)"
   date: 2002-10-31
   code: "COTM-02001"
-  image: "cotm02001.jpg"
   ref: "/controllers/usb/cotm02001"
 
 - id: dgc255
   name: "One handle controller (PC)"
   date: 2004-12-17
   code: "DGC-255"
-  image: "dgc255.jpg"
   ref: "/controllers/usb/dgc255"
 
 - id: dgoc44
   name: "Two handle controller (PC game port)"
   date: 1999-03-18
-  code: "DGOC-44"
   ref: "/controllers/gameport/dgoc44"
 
 - id: dgoc44u
   name: "Two handle controller (PC)"
   date: 2001-06-15
   code: "DGOC-44U"
-  image: "dgoc44u.jpg"
   ref: "/controllers/usb/dgoc44u"
 
 - id: dyc288
   name: "Ryojōhen controller (PC)"
   date: 2003-06-05
   code: "DYC-288"
-  image: "dyc288.jpg"
   ref: "/controllers/usb/dyc288"
   notes: "Also packaged with serial code DRC-184."
 
 - id: ohcpc01
   name: "Sangying one handle controller (PC)"
   date: 2018-02-28
-  code: "OHC-PC01"
   ref: "/controllers/usb/ohcpc01"
 
 - id: pnp
@@ -49,14 +43,12 @@
   name: "Densha de GO! Plug and Play 2"
   date: 2023-12-07
   image: "pnp2.jpg"
-  code: "TPP-D-002"
   ref: "/controllers/standalone/pnp2"
 
 - id: sotp031201
   name: "Multi Train Controller (Sony PlayStation 2)"
   date: 2003-12-18
   code: "SOTP-031201"
-  image: "sotp031201.jpg"
   ref: "/controllers/usb/sotp031201"
   notes: "Released with 4 cartridges: P4-B7, P4-B7 (without B1), P5-B5 and P5-B8. Additional cartridges sold separately: P5-B7 and P13-B7."
 
@@ -77,7 +69,6 @@
   name: "One handle controller (Sony PlayStation)"
   date: 1999-03-18
   code: "TCPP-20001"
-  image: "tcpp20001.jpg"
   ref: "/controllers/classic/tcpp20001"
 
 - id: tcpp20002
@@ -115,34 +106,29 @@
   name: "Ryojōhen controller (Sony PlayStation 2)"
   date: 2002-07-25
   code: "TCPP-20014"
-  image: "tcpp20014.jpg"
   ref: "/controllers/usb/tcpp20014"
 
 - id: tcpp20017
   name: "Shinkansen controller (Nintendo Wii)"
   date: 2007-03-01
   code: "TCPP-20017"
-  image: "tcpp20017.jpg"
   ref: "/controllers/wii/tcpp20017"
 
 - id: vok00105
   name: "Master Controller (PC)"
   date: 1998-03-04
   code: "VOK-00105"
-  image: "vok00105.jpg"
   ref: "/controllers/serial/vok00105"
 
 - id: vok00106
   name: "Master Controller II (PC)"
   date: 1999-12-17
   code: "VOK-00106"
-  image: "vok00106.jpg"
   ref: "/controllers/serial/vok00106"
 
 - id: zkns001
   name: "One handle controller (Nintendo Switch)"
   date: 2021-08-05
   code: "ZKNS-001"
-  image: "zkns001.jpg"
   ref: "/controllers/usb/zkns001"
   notes: "Also available as special 1st anniversary translucent exclusive edition (ZKNS-002)."

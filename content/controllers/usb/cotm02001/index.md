@@ -2,7 +2,9 @@
 title: "Train Mascon (Sony PlayStation 2)"
 ---
 
-{{% controller-page "cotm02001" %}}
+{{% controller-page %}}cotm02001{{% /controller-page %}}
+
+## Technical details
 
 This controller has one handle (5 power notches and 8+emergency brake notches), a D-Pad and 7 buttons (Select, Start, A, B, C, Close, ATS). The A button can distinguish between "soft" and "hard" presses. In addition, the controller has four lamps: doors, ATS, 45 and 15.
 
