@@ -17,4 +17,6 @@
 - id: wii
   name: "Nintendo Wii"
 - id: pc-windows
-  name: "PC (Windows)"
+  name: "PC - Windows"
+- id: pc-multi
+  name: "PC - Multiplatform"

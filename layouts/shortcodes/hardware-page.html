@@ -1,5 +1,4 @@
-{{ range $hardware := $.Site.Data.hardware }}
-{{ if eq .id $.Inner }}
+{{ range $hardware := where $.Site.Data.hardware "id" $.Inner }}
 {{ $image := printf "static/images/hardware/%s.jpg" .id }}
 
 ## Overview
@@ -46,12 +45,14 @@
   </tr>
   {{ range $software := sort $.Site.Data.software "name_en" }}
   {{ range $supported_hardware := $software.hardware }}
-  {{ if eq $supported_hardware.id $hardware.id }}
+  {{ range $system := $.Site.Data.system }}
+  {{ if and (eq $supported_hardware.id $hardware.id) (eq $software.system $system.id) }}
   <tr>
-    <td><a href='{{ "software" | relURL }}/{{ $software.id }}'>{{ $software.name_en }}</a></td>
+    <td><a href='{{ "software" | relURL }}/{{ $software.id }}'>{{ $software.name_en }} ({{ $system.name }})</a></td>
     <td id="{{ if or .unofficial .partial }}partial{{ else }}native{{ end }}">{{ if .unofficial }}Unofficial{{ else if .partial }}Partial{{ else }}Native{{ end }}</td>
     <td>{{ .notes }} {{ if .adapter }}<a href="{{ index $.Site.Data.adapters .adapter "ref" }}">{{ index $.Site.Data.adapters .adapter "notes" }}</a>{{ end }}</td>
   </tr>
+  {{ end }}
   {{ end }}
   {{ end }}
   {{ end }}
@@ -59,5 +60,4 @@
 
 {{ end }}
 
-{{ end }}
 {{ end }}

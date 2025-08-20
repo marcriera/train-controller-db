@@ -1,6 +1,6 @@
-- id: console
-- id: gameport
-- id: serial
-- id: standalone
-- id: usb
-- id: wii
+console:
+gameport:
+serial:
+standalone:
+usb:
+wii:

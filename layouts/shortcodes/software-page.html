@@ -1,5 +1,4 @@
-{{ range $software := $.Site.Data.software }}
-{{ if eq .id $.Inner }}
+{{ range $software := where $.Site.Data.software "id" $.Inner }}
 {{ $image := printf "static/images/software/%s.jpg" .id }}
 
 ## Overview
@@ -69,5 +68,4 @@
   {{ end }}
 </table>
 
-{{ end }}
 {{ end }}

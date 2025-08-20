@@ -550,11 +550,11 @@
     - id: tcpp20009
       adapter: bve_plugin
 
-- id: pc-windows_openbve
+- id: pc-multi_openbve
   name: "OpenBVE"
   name_en: "OpenBVE"
   date: 2009-03-23
-  system: pc-windows
+  system: pc-multi
   series: other
   url: "https://openbve-project.net/"
   notes: "Controllers are supported on version 1.8.2.0 or later via built-in input plugins."
@@ -884,6 +884,62 @@
   code: "HAC-P-BPM8A"
   system: switch
   series: japanese-rail-sim
+  hardware:
+    - id: dgoc44u
+      unofficial: yes
+      adapter: titan
+    - id: tcpp20001
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: tcpp20002
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
+      unofficial: yes
+      adapter: titan
+
+- id: switch_korean-rail-driving-tour
+  name_en: "Korean Rail Driving Tour"
+  name: "Korean Rail Driving Tour"
+  date: 2024-03-01
+  system: switch
+  series: other
+  notes: "Multiple entries released from 2024."
+  hardware:
+    - id: dgoc44u
+      unofficial: yes
+      adapter: titan
+    - id: tcpp20001
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: tcpp20002
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
+      unofficial: yes
+      adapter: titan
+
+- id: switch_korean-drone-flying-tour
+  name_en: "Korean Drone Flying Tour"
+  name: "Korean Drone Flying Tour"
+  date: 2024-08-22
+  system: switch
+  series: other
+  notes: "Multiple entries released from 2024."
   hardware:
     - id: dgoc44u
       unofficial: yes

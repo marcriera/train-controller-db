@@ -13,16 +13,14 @@
     <th>Release date</th>
     <th>System</th>
   </tr>
-  {{ range $software := sort $.Site.Data.software "date" }}
-    {{ if eq .series $series.id }}
+  {{ range $software := where (sort $.Site.Data.software "date") "series" $series.id }}
   <tr>
     <td><a href='{{ "software" | relURL }}/{{ .id }}'>{{ .name_en }}</a></td>
     <td>{{ .date | time.Format ":date_long" }}</td>
-    {{ range $system := $.Site.Data.system }}{{ if eq .id $software.system }}
+    {{ range $system := where $.Site.Data.system "id" $software.system }}
   <td><a href='{{ "software/system#" | relURL }}{{ .id }}'>{{ .name }}</a></td>
-    {{ end }}{{ end }}
-  </tr>
     {{ end }}
+  </tr>
   {{ end }}
 </table>
 
