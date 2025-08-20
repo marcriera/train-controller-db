@@ -1,0 +1,28 @@
+{{ $arg := .Get 0 }}
+{{ range $hardwaretype := $.Site.Data.hardwaretype }}
+{{ if eq .id $arg }}
+
+<table class="softwaretable">
+  <colgroup>
+    <col class="col-name">
+    <col class="col-date">
+    <col class="col-extra">
+  </colgroup>
+  <tr>
+    <th>Name</th>
+    <th>Release date</th>
+    <th>Notes</th>
+  </tr>
+  {{ range $hardware := sort $.Site.Data.hardware "date" }}
+    {{ if eq .type $hardwaretype.id }}
+  <tr>
+    <td><a href='{{ "hardware" | relURL }}/{{ .id }}'>{{ .name }}</a></td>
+    <td>{{ .date | time.Format ":date_long" }}</td>
+  <td></td>
+  </tr>
+    {{ end }}
+  {{ end }}
+</table>
+
+{{ end }}
+{{ end }}

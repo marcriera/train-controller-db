@@ -5,8 +5,8 @@
   code: "T-1102M"
   system: dreamcast
   series: densha-de-go
-  controllers:
-    - model: tcpp20004
+  hardware:
+    - id: tcpp20004
 
 - id: n64_densha64
   name_en: "Densha de GO! 64"
@@ -15,8 +15,8 @@
   code: "NUS-ND6J-JPN"
   system: n64
   series: densha-de-go
-  controllers:
-    - model: tcpp20003
+  hardware:
+    - id: tcpp20003
       notes: "Connect standard controller to P1 and train controller to P3."
 
 - id: saturn_densha
@@ -26,8 +26,8 @@
   code: "T-10317G"
   system: saturn
   series: densha-de-go
-  controllers:
-    - model: tc5175290
+  hardware:
+    - id: tc5175290
       notes: "Select controller on game startup."
 
 - id: pc-windows_densha
@@ -36,12 +36,12 @@
   date: 1999-04-23
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
+  hardware:
+    - id: dgc255
       notes: "Original release requires update."
-    - model: dgoc44u
+    - id: dgoc44u
       notes: "Original release requires update."
-    - model: dgoc44
+    - id: dgoc44
 
 - id: pc-windows_densha2
   name_en: "Densha de GO! 2 Kōsoku-hen"
@@ -49,12 +49,12 @@
   date: 1999-03-18
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
+  hardware:
+    - id: dgc255
       notes: "Original release requires update."
-    - model: dgoc44u
+    - id: dgoc44u
       notes: "Original release requires update."
-    - model: dgoc44
+    - id: dgoc44
 
 - id: pc-windows_pro
   name_en: "Densha de GO! Professional"
@@ -62,10 +62,10 @@
   date: 2001-06-15
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
-    - model: dgoc44u
-    - model: dgoc44
+  hardware:
+    - id: dgc255
+    - id: dgoc44u
+    - id: dgoc44
 
 - id: pc-windows_nagoya
   name_en: "Densha de GO! Nagoya Tetsudō-hen"
@@ -73,12 +73,12 @@
   date: 2000-12-01
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
+  hardware:
+    - id: dgc255
       notes: "Original release requires update."
-    - model: dgoc44u
+    - id: dgoc44u
       notes: "Original release requires update."
-    - model: dgoc44
+    - id: dgoc44
 
 - id: pc-windows_kisha
   name_en: "Kisha de GO!"
@@ -86,12 +86,12 @@
   date: 2001-02-09
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
+  hardware:
+    - id: dgc255
       notes: "Original release requires update."
-    - model: dgoc44u
+    - id: dgoc44u
       notes: "Original release requires update."
-    - model: dgoc44
+    - id: dgoc44
 
 - id: pc-windows_densha3
   name_en: "Densha de GO! 3 Tsūkin-hen Daiya Kaisei"
@@ -99,10 +99,10 @@
   date: 2002-03-21
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
-    - model: dgoc44u
-    - model: dgoc44
+  hardware:
+    - id: dgc255
+    - id: dgoc44u
+    - id: dgoc44
 
 - id: pc-windows_shinkansen
   name_en: "Densha de GO! Shinkansen San'yō Shinkansen-hen"
@@ -110,10 +110,10 @@
   date: 2002-12-13
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
-    - model: dgoc44u
-    - model: dgoc44
+  hardware:
+    - id: dgc255
+    - id: dgoc44u
+    - id: dgoc44
 
 - id: pc-windows_ryojouhen
   name_en: "Densha de GO! Ryojōhen"
@@ -121,10 +121,10 @@
   date: 2003-06-05
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
-    - model: dyc288
-    - model: dgoc44u
+  hardware:
+    - id: dgc255
+    - id: dyc288
+    - id: dgoc44u
 
 - id: pc-windows_pro2
   name_en: "Densha de GO! Professional 2"
@@ -132,10 +132,10 @@
   date: 2003-04-30
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
-    - model: dyc288
-    - model: dgoc44u
+  hardware:
+    - id: dgc255
+    - id: dyc288
+    - id: dgoc44u
 
 - id: pc-windows_final
   name_en: "Densha de GO! Final"
@@ -143,10 +143,10 @@
   date: 2004-12-17
   system: pc-windows
   series: densha-de-go
-  controllers:
-    - model: dgc255
-    - model: dyc288
-    - model: dgoc44u
+  hardware:
+    - id: dgc255
+    - id: dyc288
+    - id: dgoc44u
 
 - id: ps1_densha
   name_en: "Densha de GO!"
@@ -155,10 +155,10 @@
   code: "SCPS-45166"
   system: ps1
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
-    - model: tcpp20001
-    - model: slph00051
+  hardware:
+    - id: tcpp20002
+    - id: tcpp20001
+    - id: slph00051
 
 - id: ps1_densha2
   name_en: "Densha de GO! 2 Kōsoku-hen"
@@ -167,10 +167,10 @@
   code: "SLPM-86142"
   system: ps1
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
-    - model: tcpp20001
-    - model: slph00051
+  hardware:
+    - id: tcpp20002
+    - id: tcpp20001
+    - id: slph00051
 
 - id: ps1_pro
   name_en: "Densha de GO! Professional"
@@ -179,10 +179,10 @@
   code: "SLPM-86378"
   system: ps1
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
-    - model: tcpp20001
-    - model: slph00051
+  hardware:
+    - id: tcpp20002
+    - id: tcpp20001
+    - id: slph00051
 
 - id: ps1_nagoya
   name_en: "Densha de GO! Nagoya Tetsudō-hen"
@@ -191,10 +191,10 @@
   code: "SLPM-86424"
   system: ps1
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
-    - model: tcpp20001
-    - model: slph00051
+  hardware:
+    - id: tcpp20002
+    - id: tcpp20001
+    - id: slph00051
 
 - id: ps1_kisha
   name_en: "Kisha de GO!"
@@ -203,10 +203,10 @@
   code: "SLPM-86449"
   system: ps1
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
-    - model: tcpp20001
-    - model: slph00051
+  hardware:
+    - id: tcpp20002
+    - id: tcpp20001
+    - id: slph00051
 
 - id: ps2_densha3
   name_en: "Densha de GO! 3 Tsūkin-hen"
@@ -215,13 +215,13 @@
   code: "SLPM-62049"
   system: ps2
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
-    - model: sotp031201
+  hardware:
+    - id: tcpp20002
+    - id: sotp031201
       notes: "P5/B8 cartridge."
-    - model: tcpp20001
-    - model: slph00051
-    - model: tcpp20009
+    - id: tcpp20001
+    - id: slph00051
+    - id: tcpp20009
 
 - id: ps2_shinkansen
   name_en: "Densha de GO! Shinkansen San'yō Shinkansen-hen"
@@ -230,14 +230,14 @@
   code: "SLPM-65039"
   system: ps2
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
-    - model: sotp031201
+  hardware:
+    - id: tcpp20002
+    - id: sotp031201
       notes: "P5/B8 cartridge."
-    - model: tcpp20001
-    - model: tcpp20011
-    - model: slph00051
-    - model: tcpp20009
+    - id: tcpp20001
+    - id: tcpp20011
+    - id: slph00051
+    - id: tcpp20009
 
 - id: ps2_ryojouhen
   name_en: "Densha de GO! Ryojōhen"
@@ -246,21 +246,21 @@
   code: "SLPM-65148"
   system: ps2
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
+  hardware:
+    - id: tcpp20002
       unofficial: yes
       adapter: ps2_cheats
-    - model: sotp031201
+    - id: sotp031201
       notes: "P5/B8 cartridge."
-    - model: tcpp20001
+    - id: tcpp20001
       unofficial: yes
       adapter: ps2_cheats
-    - model: tcpp20014
-    - model: tcpp20011
-    - model: slph00051
+    - id: tcpp20014
+    - id: tcpp20011
+    - id: slph00051
       unofficial: yes
       adapter: ps2_cheats
-    - model: tcpp20009
+    - id: tcpp20009
 
 - id: ps2_pro2
   name_en: "Densha de GO! Professional 2"
@@ -269,21 +269,21 @@
   code: "SLPM-65243"
   system: ps2
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
+  hardware:
+    - id: tcpp20002
       unofficial: yes
       adapter: ps2_cheats
-    - model: sotp031201
+    - id: sotp031201
       notes: "P5/B8 cartridge."
-    - model: tcpp20001
+    - id: tcpp20001
       unofficial: yes
       adapter: ps2_cheats
-    - model: tcpp20014
-    - model: tcpp20011
-    - model: slph00051
+    - id: tcpp20014
+    - id: tcpp20011
+    - id: slph00051
       unofficial: yes
       adapter: ps2_cheats
-    - model: tcpp20009
+    - id: tcpp20009
 
 - id: ps2_final
   name_en: "Densha de GO! Final"
@@ -292,21 +292,21 @@
   code: "SLPM-65590"
   system: ps2
   series: densha-de-go
-  controllers:
-    - model: tcpp20002
+  hardware:
+    - id: tcpp20002
       unofficial: yes
       adapter: ps2_cheats
-    - model: sotp031201
+    - id: sotp031201
       notes: "P5/B8 cartridge."
-    - model: tcpp20001
+    - id: tcpp20001
       unofficial: yes
       adapter: ps2_cheats
-    - model: tcpp20014
-    - model: tcpp20011
-    - model: slph00051
+    - id: tcpp20014
+    - id: tcpp20011
+    - id: slph00051
       unofficial: yes
       adapter: ps2_cheats
-    - model: tcpp20009
+    - id: tcpp20009
 
 - id: ps2_trainyamanote
   name_en: "Train Simulator Real: THE Yamanote Line"
@@ -315,14 +315,14 @@
   code: "SCPS-15018"
   system: ps2
   series: train-simulator
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Requires official USB adapter. Set to Type F."
-    - model: vok00106
+    - id: vok00106
       notes: "Requires official USB adapter. Set power to 5 and brake to 8."
-    - model: sotp031201
+    - id: sotp031201
       notes: "P5/B8 cartridge."
-    - model: tcpp20009
+    - id: tcpp20009
 
 - id: ps2_trainkeihin
   name_en: "Train Simulator Real: THE Keihin Electric Express Railway"
@@ -331,14 +331,14 @@
   code: "SCPS-15035"
   system: ps2
   series: train-simulator
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Requires official USB adapter. Set to Type C."
-    - model: vok00106
+    - id: vok00106
       notes: "Requires official USB adapter. Set power to 5 and brake to 5."
-    - model: sotp031201
+    - id: sotp031201
       notes: "P5/B5 cartridge."
-    - model: cotm02001
+    - id: cotm02001
 
 - id: ps2_trainmidosuji
   name_en: "Train Simulator: Midōsuji Line"
@@ -347,14 +347,14 @@
   code: "SLPM-65386"
   system: ps2
   series: train-simulator
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Requires official USB adapter. Set to Type D."
-    - model: vok00106
+    - id: vok00106
       notes: "Requires official USB adapter. Set power to 4 and brake to 6."
-    - model: sotp031201
+    - id: sotp031201
       notes: "P4/B2-B7, P5/B5 cartridges."
-    - model: cotm02001
+    - id: cotm02001
 
 - id: ps2_traindensha
   name_en: "Train Simulator + Densha de GO!: Tokyu Line"
@@ -363,14 +363,14 @@
   code: "SLPM-65472"
   system: ps2
   series: train-simulator
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Requires official USB adapter. Set to Type D."
-    - model: vok00106
+    - id: vok00106
       notes: "Requires official USB adapter. Set power to 4 and brake to 7."
-    - model: sotp031201
+    - id: sotp031201
       notes: "P4/B7, P5/B5 cartridges."
-    - model: cotm02001
+    - id: cotm02001
 
 - id: ps2_trainkeitokei
   name_en: "Train Simulator: Keisei, Toei Asakusa, Keikyu Lines"
@@ -379,15 +379,15 @@
   code: "SLPM-67007"
   system: ps2
   series: train-simulator
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Requires official USB adapter. Set to Type C."
-    - model: vok00106
+    - id: vok00106
       notes: "Requires official USB adapter. Set power to 5 and brake to 5."
-    - model: sotp031201
+    - id: sotp031201
       notes: "P5/B5, P13/B7 cartridges."
-    - model: tcpp20011
-    - model: cotm02001
+    - id: tcpp20011
+    - id: cotm02001
 
 - id: ps2_trainshinkansen
   name_en: "Train Simulator: Kyūshū Shinkansen"
@@ -396,14 +396,14 @@
   code: "SLPM-67006"
   system: ps2
   series: train-simulator
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Requires official USB adapter. Set to Type G."
-    - model: vok00106
+    - id: vok00106
       notes: "Requires official USB adapter. Set power to 5 and brake to 7."
-    - model: sotp031201
+    - id: sotp031201
       notes: "P5/B7, P13/B7 cartridges."
-    - model: tcpp20011
+    - id: tcpp20011
 
 - id: ps3_railfanchicago
   name_en: "Railfan: Chicago Transit Authority Brown Line"
@@ -412,10 +412,10 @@
   code: "BLJM-60013"
   system: ps3
   series: other
-  controllers:
-    - model: sotp031201
+  hardware:
+    - id: sotp031201
       notes: "P5/B8 cartridge."
-    - model: tcpp20009
+    - id: tcpp20009
 
 - id: ps3_railfantaiwan
   name_en: "Railfan: Taiwan High Speed Rail"
@@ -432,26 +432,26 @@
   code: "PLJM-16643"
   system: ps4
   series: densha-de-go
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
       unofficial: yes
       adapter: titan
-    - model: ohcpc01
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -462,23 +462,23 @@
   code: "PLJM-16754"
   system: ps4
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
       unofficial: yes
       adapter: titan
 
@@ -489,10 +489,10 @@
   system: pc-windows
   series: train-simulator
   notes: "Multiple entries released from 1995 to 2000."
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Many entries require companion software to use the controller."
-    - model: vok00106
+    - id: vok00106
       notes: "Many entries require companion software to use the controller."
 
 - id: pc-windows_trainsimplus
@@ -502,9 +502,9 @@
   system: pc-windows
   series: train-simulator
   notes: "Multiple entries released from 2000 to 2001."
-  controllers:
-    - model: vok00105
-    - model: vok00106
+  hardware:
+    - id: vok00105
+    - id: vok00106
 
 - id: pc-windows_bve
   name: "BVE Trainsim"
@@ -514,40 +514,40 @@
   series: other
   url: "https://bvets.net/en/"
   notes: "Compatibility applies to version 5 or later."
-  controllers:
-    - model: tcpp20002
+  hardware:
+    - id: tcpp20002
       notes: "Requires USB adapter."
       adapter: bve_plugin
-    - model: sotp031201
+    - id: sotp031201
       adapter: bve_plugin
-    - model: zkns001
+    - id: zkns001
       adapter: bve_plugin
-    - model: dgc255
+    - id: dgc255
       adapter: bve_plugin
-    - model: tcpp20001
+    - id: tcpp20001
       notes: "Requires USB adapter."
       adapter: bve_plugin
-    - model: dyc288
+    - id: dyc288
       adapter: bve_plugin
-    - model: tcpp20014
+    - id: tcpp20014
       adapter: bve_plugin
-    - model: ohcpc01
+    - id: ohcpc01
       adapter: bve_plugin
-    - model: tcpp20003
+    - id: tcpp20003
       notes: "Requires USB adapter."
       adapter: bve_plugin
-    - model: dgoc44u
+    - id: dgoc44u
       adapter: bve_plugin
-    - model: tcpp20004
+    - id: tcpp20004
       notes: "Requires USB adapter."
       adapter: bve_plugin
-    - model: slph00051
+    - id: slph00051
       notes: "Requires USB adapter."
       adapter: bve_plugin
-    - model: tc5175290
+    - id: tc5175290
       notes: "Requires USB adapter."
       adapter: bve_plugin
-    - model: tcpp20009
+    - id: tcpp20009
       adapter: bve_plugin
 
 - id: pc-windows_openbve
@@ -558,44 +558,44 @@
   series: other
   url: "https://openbve-project.net/"
   notes: "Controllers are supported on version 1.8.2.0 or later via built-in input plugins."
-  controllers:
-    - model: tcpp20002
+  hardware:
+    - id: tcpp20002
       notes: "Requires USB adapter and calibration."
       adapter: bve_plugin
-    - model: sotp031201
+    - id: sotp031201
       adapter: bve_plugin
-    - model: zkns001
+    - id: zkns001
       adapter: bve_plugin
-    - model: dgc255
+    - id: dgc255
       adapter: bve_plugin
-    - model: tcpp20001
+    - id: tcpp20001
       notes: "Requires USB adapter and calibration."
       adapter: bve_plugin
-    - model: dyc288
+    - id: dyc288
       adapter: bve_plugin
-    - model: tcpp20014
+    - id: tcpp20014
       adapter: bve_plugin
-    - model: ohcpc01
+    - id: ohcpc01
       adapter: bve_plugin
-    - model: tcpp20011
+    - id: tcpp20011
       adapter: bve_plugin
-    - model: cotm02001
+    - id: cotm02001
       adapter: bve_plugin
-    - model: tcpp20003
+    - id: tcpp20003
       notes: "Requires USB adapter and calibration."
       adapter: bve_plugin
-    - model: dgoc44u
+    - id: dgoc44u
       adapter: bve_plugin
-    - model: tcpp20004
+    - id: tcpp20004
       notes: "Requires USB adapter and calibration."
       adapter: bve_plugin
-    - model: slph00051
+    - id: slph00051
       notes: "Requires USB adapter and calibration."
       adapter: bve_plugin
-    - model: tc5175290
+    - id: tc5175290
       notes: "Requires USB adapter and calibration."
       adapter: bve_plugin
-    - model: tcpp20009
+    - id: tcpp20009
       adapter: bve_plugin
 
 - id: pc-windows_traincrew
@@ -605,14 +605,14 @@
   system: pc-windows
   series: other
   url: "https://acty-soft.com/traincrew/"
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Requires plugin from official website. Set to Type G."
-    - model: vok00106
+    - id: vok00106
       notes: "Requires plugin from official website. Set power to 5 and brake to 7."
-    - model: zkns001
-    - model: ohcpc01
-    - model: dgoc44u
+    - id: zkns001
+    - id: ohcpc01
+    - id: dgoc44u
 
 - id: pc-windows_hmmsimmetro
   name: "Hmmsim Metro"
@@ -621,12 +621,12 @@
   system: pc-windows
   series: other
   url: "https://jeminie.kr/Hmmsim-Metro"
-  controllers:
-    - model: vok00105
+  hardware:
+    - id: vok00105
       notes: "Set to Type D."
-    - model: vok00106
+    - id: vok00106
       notes: "Set power to 4 and brake to 7."
-    - model: zkns001
+    - id: zkns001
 
 - id: pc-windows_japankyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
@@ -642,8 +642,8 @@
   system: pc-windows
   series: japanese-rail-sim
   url: "https://store.steampowered.com/app/2281540/Japanese_Rail_Sim_Operating_the_MEITETSU_Line/"
-  controllers:
-    - model: zkns001
+  hardware:
+    - id: zkns001
 
 - id: pc-windows_jreasttrainsimulator
   name: "JR EAST Train Simulator"
@@ -652,8 +652,8 @@
   system: pc-windows
   series: other
   url: "https://store.steampowered.com/app/2111630/JR_EAST_Train_Simulator/"
-  controllers:
-    - model: zkns001
+  hardware:
+    - id: zkns001
 
 - id: pc-windows_tramcityhakodate
   name: "Tramcity Hakodate"
@@ -662,8 +662,8 @@
   system: pc-windows
   series: other
   url: "https://store.steampowered.com/app/2614000/TRAMCITY_HAKODATE/"
-  controllers:
-    - model: zkns001
+  hardware:
+    - id: zkns001
 
 - id: switch_yamanote
   name_en: "Densha de GO! Hashirō Yamanote‑sen"
@@ -672,24 +672,24 @@
   code: "HAC-P-A2BGA"
   system: switch
   series: densha-de-go
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -716,24 +716,24 @@
   code: "HAC-P-A8YZA"
   system: switch
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -744,24 +744,24 @@
   code: "HAC-P-A9QAA"
   system: switch
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -772,24 +772,24 @@
   code: "HAC-P-BCXNA"
   system: switch
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -800,24 +800,24 @@
   code: "HAC-P-BE2DA"
   system: switch
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -828,24 +828,24 @@
   code: "HAC-P-BKFUA"
   system: switch
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -856,24 +856,24 @@
   code: "HAC-P-BLUSA"
   system: switch
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -884,24 +884,24 @@
   code: "HAC-P-BPM8A"
   system: switch
   series: japanese-rail-sim
-  controllers:
-    - model: dgoc44u
+  hardware:
+    - id: dgoc44u
       unofficial: yes
       adapter: titan
-    - model: tcpp20001
-      unofficial: yes
-      notes: "Requires USB adapter."
-      adapter: titan
-    - model: tcpp20002
+    - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: slph00051
+    - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
       adapter: titan
-    - model: zkns001
-    - model: ohcpc01
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
       unofficial: yes
       adapter: titan
 
@@ -912,5 +912,5 @@
   code: "RVL-P-RG4J"
   system: wii
   series: densha-de-go
-  controllers:
-    - model: tcpp20017
+  hardware:
+    - id: tcpp20017

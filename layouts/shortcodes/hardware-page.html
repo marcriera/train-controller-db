@@ -1,6 +1,6 @@
-{{ range $software := $.Site.Data.software }}
+{{ range $hardware := $.Site.Data.hardware }}
 {{ if eq .id $.Inner }}
-{{ $image := printf "static/images/software/%s.jpg" .id }}
+{{ $image := printf "static/images/hardware/%s.jpg" .id }}
 
 ## Overview
 
@@ -11,39 +11,27 @@
     <col class="col-data">
   </colgroup>
   <tr>
-    {{ if fileExists $image }}<td rowspan="0" id="image"><img src='{{ printf "images/software/%s.jpg" .id | relLangURL }}'/></td>{{ end }}
+    {{ if fileExists $image }}<td rowspan="0" id="image"><img src='{{ printf "images/hardware/%s.jpg" .id | relLangURL }}'/></td>{{ end }}
   <td><strong>Name</strong></td>
-    <td>{{ .name_en }}</td>
-  </tr>
-  {{ if .name }}
-  <tr>
-    <td><strong>Original name</strong></td>
     <td>{{ .name }}</td>
   </tr>
-  {{ end }}
   <tr>
     <td><strong>Release date</strong></td>
     <td>{{ .date | time.Format ":date_long" }}</td>
   </tr>
-  {{ if .code }}
   <tr>
     <td><strong>Serial code</strong></td>
     <td>{{ .code }}</td>
   </tr>
-  {{ end }}
-  {{ if .url }}
-  <tr>
-    <td><strong>Website</strong></td>
-    <td><a href="{{ .url }}" target="_blank">{{ .url }}</a></td>
-  </tr>
-  {{ end }}
   <tr>
     <td><strong>Notes</strong></td>
     <td>{{ .notes }}</td>
   </tr>
 </table>
 
-## Supported hardware
+{{ if ne .type "standalone" }}
+
+## Supported software
 
 <table class="compattable">
   <colgroup>
@@ -52,15 +40,15 @@
     <col class="col-notes">
   </colgroup>
   <tr>
-    <th>Model</th>
+    <th>Software</th>
     <th>Support</th>
     <th>Notes</th>
   </tr>
-  {{ range $hardware := sort $.Site.Data.hardware "name" }}
+  {{ range $software := sort $.Site.Data.software "name_en" }}
   {{ range $supported_hardware := $software.hardware }}
   {{ if eq $supported_hardware.id $hardware.id }}
   <tr>
-    <td><a href='{{ "hardware" | relURL }}/{{ $hardware.id }}'>{{ $hardware.name }}</a></td>
+    <td><a href='{{ "software" | relURL }}/{{ $software.id }}'>{{ $software.name_en }}</a></td>
     <td id="{{ if or .unofficial .partial }}partial{{ else }}native{{ end }}">{{ if .unofficial }}Unofficial{{ else if .partial }}Partial{{ else }}Native{{ end }}</td>
     <td>{{ .notes }} {{ if .adapter }}<a href="{{ index $.Site.Data.adapters .adapter "ref" }}">{{ index $.Site.Data.adapters .adapter "notes" }}</a>{{ end }}</td>
   </tr>
@@ -68,6 +56,8 @@
   {{ end }}
   {{ end }}
 </table>
+
+{{ end }}
 
 {{ end }}
 {{ end }}
