@@ -18,8 +18,8 @@ Internally, it is a HID-compliant joystick with two axes and 6 buttons (the hand
 | **Vendor ID**               | 0x0AE4                                    |
 | **Product ID**              | 0x0003                                    |
 | **Serial number**           | TCPP20009                                 |
-| **USB standard descriptor** | [Link](/controllers/usb/descriptors/dgoc44u_standard-descriptor.txt) |
-| **HID report descriptor**   | [Link](/controllers/usb/descriptors/dgoc44u_hid-report-descriptor.txt) |
+| **USB standard descriptor** | [Download](standard-descriptor.txt) |
+| **HID report descriptor**   | [Download](hid-report-descriptor.txt) |
 
 The controller sends reports to the host (PC) formed by 6 bytes:
 

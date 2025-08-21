@@ -18,8 +18,8 @@ Internally, it is a vendor-specific class device.
 | **Vendor ID**               | 0x1C06                                    |
 | **Product ID**              | 0x77A7                                    |
 | **Serial number**           | *Unavailable*                             |
-| **USB standard descriptor** | [Link](/controllers/usb/descriptors/sotp031201-P5B5_standard-descriptor.txt) from Multi Train Controller |
-| **HID report descriptor**   | [Link](/controllers/usb/descriptors/cotm02001_hid-report-descriptor.txt) (recreated, not provided by actual device) |
+| **USB standard descriptor** | [Download](standard-descriptor.txt) (from Multi Train Controller) |
+| **HID report descriptor**   | [Download](hid-report-descriptor.txt) (recreated, not provided by actual device) |
 
 ### Input
 

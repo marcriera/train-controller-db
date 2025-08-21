@@ -1,5 +1,5 @@
 ---
-title: "One handle controller (Nintendo Switch)"
+title: "One handle controller / ZUIKI Mascon (Nintendo Switch)"
 hidden: true
 ---
 
@@ -13,11 +13,10 @@ This controller has one handle (5 power notches and 8+emergency brake notches) a
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | **Product name**            | One Handle MasCon for Nintendo Switch<br>One Handle MasCon for Nintendo Switch Exclusive Edition |
 | **Manufacturer**            | *None*                                                                                           |
-| **Vendor ID**               | 0x0F0D<br>0x33DD (Exclusive Edition)                                                             |
-| **Product ID**              | 0x00C1<br>0x0002 (Exclusive Edition)                                                             |
+| **Vendor/Product ID**       | 0x0F0D/0x00C1 (Densha de GO! edition)<br>0x33DD/0x0002 (Densha de GO! 1st anniversary translucent edition)<br>0x33DD/0x0003 (ZUIKI Mascon) |
 | **Serial number**           | *None*                                                                                           |
-| **USB standard descriptor** | [Link](/controllers/usb/descriptors/zkns001_standard-descriptor.txt)                             |
-| **HID report descriptor**   | [Link](/controllers/usb/descriptors/zkns001_hid-report-descriptor.txt)                           |
+| **USB standard descriptor** | [Download](standard-descriptor.txt)                             |
+| **HID report descriptor**   | [Download](hid-report-descriptor.txt)                           |
 
 ### Input
 

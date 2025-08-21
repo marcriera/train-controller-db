@@ -18,8 +18,8 @@ Internally, it is a vendor-specific class device. The USB descriptors and the re
 | **Vendor ID**               | 0x0AE4<br>0x1C06 (P5/B5)                  |
 | **Product ID**              | 0x0101<br>0x77A7 (P5/B5)<br>0x0004 (P5/B8) |
 | **Serial number**           | *None*                                    |
-| **USB standard descriptor** | [P4/B7](/controllers/usb/descriptors/sotp031201-P4B7_standard-descriptor.txt)<br>[P4/B7 (without B1)](/controllers/usb/descriptors/sotp031201-P4B1B7_standard-descriptor.txt)<br>[P5/B5](/controllers/usb/descriptors/sotp031201-P5B5_standard-descriptor.txt)<br>[P5/B7](/controllers/usb/descriptors/sotp031201-P5B7_standard-descriptor.txt)<br>[P5/B8](/controllers/usb/descriptors/sotp031201-P5B8_standard-descriptor.txt)<br>[P13/B7](/controllers/usb/descriptors/sotp031201-P13B7_standard-descriptor.txt) |
-| **HID report descriptor**   | [P4/B7, P4/B2-B7, P5/B7, P13/B7](/controllers/usb/descriptors/sotp031201_hid-report-descriptor.txt) (recreated, not provided by actual device) |
+| **USB standard descriptor** | [P4/B7](P4B7_standard-descriptor.txt)<br>[P4/B7 (without B1)](P4B1B7_standard-descriptor.txt)<br>[P5/B5](P5B5_standard-descriptor.txt)<br>[P5/B7](P5B7_standard-descriptor.txt)<br>[P5/B8](P5B8_standard-descriptor.txt)<br>[P13/B7](P13B7_standard-descriptor.txt) |
+| **HID report descriptor**   | [P4/B7, P4/B2-B7, P5/B7, P13/B7](hid-report-descriptor.txt) (recreated, not provided by actual device) |
 
 ### P5/B5 cartridge
 

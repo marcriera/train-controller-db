@@ -37,6 +37,7 @@
   name: "Densha de GO! Plug and Play"
   date: 2018-02-08
   type: standalone
+  notes: "Also available in special yellow edition and grey edition."
 
 - id: ddgo-pnp2
   name: "Densha de GO! Plug and Play 2"
@@ -125,8 +126,13 @@
   type: serial
 
 - id: zkns001
-  name: "One handle controller (Nintendo Switch)"
+  name: "One handle controller / ZUIKI Mascon (Nintendo Switch)"
   date: 2021-08-05
-  code: "ZKNS-001"
+  code: "ZKNS-001, ZKNS-002, ZKNS-011, ZKNS-012, ZKNS-013"
   type: usb
-  notes: "Also available as special 1st anniversary translucent exclusive edition (ZKNS-002)."
+  notes: "Available in multiple editions:\n
+          - Densha de GO! edition (ZKNS-001)\n
+          - Densha de GO! 1st anniversary translucent edition (ZKNS-002)\n
+          - ZUIKI Mascon Red (ZKNS-011)\n
+          - ZUIKI Mascon Blue (ZKNS-012)\n
+          - ZUIKI Mascon Black (ZKNS-013)"
