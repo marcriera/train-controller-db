@@ -2,8 +2,10 @@ baseURL = "https://traincontrollerdb.marcriera.cat"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Train Controller Database"
+theme = "github.com/McShelby/hugo-theme-relearn"
 
 [params]
+disableRootBreadcrumb = true
 disableLandingPageButton = true
 disableShortcutsTitle=true
 disableNextPrev = true
@@ -42,8 +44,3 @@ weight = 2
 name = "<i class='fab fa-fw fa-git-alt'></i> Git repository"
 url = "https://git.marcriera.cat/marc/train-controller-db"
 weight = 3
-
-
-[module]
-  [[module.imports]]
-    path = 'github.com/McShelby/hugo-theme-relearn'
