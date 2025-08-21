@@ -1,14 +1,26 @@
-baseURL = "https://marcriera.github.io/ddgo-controller-docs"
+baseURL = "https://traincontrollerdb.marcriera.cat"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Train Controller Database"
 
 [params]
-disableSearch = true
-themeVariant = [ "relearn-light", "relearn-dark" ]
 disableLandingPageButton = true
 disableShortcutsTitle=true
 disableNextPrev = true
+
+  [[params.themeVariant]]
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Light/Dark'
+
+  [[params.themeVariant]]
+    identifier = 'relearn-light'
+    name = "Light"
+
+  [[params.themeVariant]]
+    identifier = 'relearn-dark'
+    name = "Dark"
+
 
 [markup]
   [markup.goldmark]
@@ -17,18 +29,18 @@ disableNextPrev = true
 
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Acknowledgements"
-url = "/acknowledgements"
-weight = 1
-
-[[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> References"
 url = "/references"
 weight = 1
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub repository"
-url = "https://github.com/MarcRiera/ddgo-controller-docs"
+name = "<i class='fas fa-fw fa-bullhorn'></i> Acknowledgements"
+url = "/acknowledgements"
+weight = 2
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-git-alt'></i> Git repository"
+url = "https://git.marcriera.cat/marc/train-controller-db"
 weight = 3
 
 

@@ -1,7 +1,6 @@
 ---
 title: "Hardware"
 weight: 1
-chapter: true
 ---
 
 This section lists train controllers compatible with train simulation software and other software, grouped by type. Technical details are also provided, if they are known.

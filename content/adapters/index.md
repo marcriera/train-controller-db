@@ -1,7 +1,6 @@
 ---
 title: "Adapters, tools and hacks"
 weight: 3
-chapter: true
 ---
 
 Besides official compatibility, it is possible to use unofficial adapters, tools and hacks to use controllers with software which does not normally support train controllers.
@@ -59,7 +58,7 @@ For retail discs, the codes can be loaded with [ps2rd](https://github.com/mlafel
 Check the [technical description](ps2-cheats-tech) for all the details on how these cheat codes work. 
 
 
-## Console to USB adapters
+## USB adapters
 
 Console controllers can be used with many software using a USB adapter. While there is a wide variety of adapters in the market at all prices, not every one is supported. Check for the following when looking for a USB adapter:
 
