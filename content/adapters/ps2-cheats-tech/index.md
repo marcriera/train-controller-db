@@ -1,40 +1,11 @@
 ---
-title: "PlayStation 2 cheat codes"
-weight: 3
+title: "Sony PlayStation 2 cheat codes technical description"
+hidden: true
 ---
 
-## Overview
+The cheat codes for the Sony PlayStation 2 have become possible after disassembling and inspecting each game with [Ghidra](https://ghidra-sre.org/) and the [ghidra-emotionengine](https://github.com/beardypig/ghidra-emotionengine) plugin. The format of cheat codes is described [here](https://github.com/root670/CheatDevicePS2/wiki/Code-Types).
 
-While **Densha de GO! 3** and **Densha de GO! Shinkansen** officially support the original (non-USB) PlayStation controllers, other games are only compatible with USB controllers. Via cheat codes, it is possible to use the original PlayStation controllers on real hardware, either with retail discs or via OPL.
-
-The codes emulate a Type 2 controller. You will need to connect the controller as follows:
-
-- Port 1: Dualshock or Dualshock 2 (D-pad, **SELECT**)
-- Port 2: PlayStation controller (handles and buttons, **SELECT** is mapped to **D**)
-
-{{% notice note %}}
-Other controllers may be used like this with an adapter (Titan One/Two + Brook/PADEMU). In this case, buttons are not remapped and the Dualshock on port 1 is not needed. [More information](https://github.com/MarcRiera/ddgo-scripts/tree/main/Densha%20de%20GO!%20(PS1-PS2))
-{{% /notice %}}
-
-Each game requires a specific cheat code:
-
-- [Densha de GO! Ryojouhen](controller-cheat_ryojouhen.txt)
-- [Densha de GO! Professional 2](controller-cheat_pro2.txt)
-- [Densha de GO! Professional 2 (Taito Best)](controller-cheat_pro2best.txt)
-- [Densha de GO! Final](controller-cheat_final.txt)
-
-There are also cheat codes available for games in the **Train Simulator** series, emulating a Multi Train Controller (MTC):
-
-- [Train Simulator: Midosuji Line](controller-cheat_midosuji.txt)
-- [Train Simulator + Densha de GO!](controller-cheat_tsddgo.txt)
-
-For retail discs, the codes can be loaded with [ps2rd](https://github.com/mlafeldt/ps2rd) or [Cheat Device](https://github.com/root670/CheatDevicePS2). If you are using OPL, it already includes ps2rd and you just need to copy the codes and enable cheats.
-
-## Technical description
-
-These cheat codes have become possible after disassembling and inspecting each game with [Ghidra](https://ghidra-sre.org/) and the [ghidra-emotionengine](https://github.com/beardypig/ghidra-emotionengine) plugin. The format of cheat codes is described [here](https://github.com/root670/CheatDevicePS2/wiki/Code-Types).
-
-Here you can find a commented version of the cheat code for ***Densha de GO! Professional 2 (Taito Best)***. Input data is copied to 0xFE000 (two bytes for button data and one byte for D-pad data) before processing. Simulated controller data is first written to 0xFE004 before being copied all at once to the final location in memory where the game expects USB input data.
+Here you can find a commented version of the cheat code for ***Densha de GO! Professional 2 (TAITO Best)***. Input data is copied to 0xFE000 (two bytes for button data and one byte for D-pad data) before processing. Simulated controller data is first written to 0xFE004 before being copied all at once to the final location in memory where the game expects USB input data.
 
 ```
 202D3CAC 00000000 // By default, set number of connected USB devices to 0

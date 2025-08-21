@@ -249,17 +249,17 @@
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: tcpp20009
 
 - id: ps2_pro2
@@ -272,17 +272,17 @@
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: tcpp20009
 
 - id: ps2_final
@@ -295,17 +295,17 @@
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: ps2-cheats
     - id: tcpp20009
 
 - id: ps2_trainyamanote
@@ -517,38 +517,38 @@
   hardware:
     - id: tcpp20002
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: sotp031201
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: zkns001
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: dgc255
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20001
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: dyc288
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20014
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: ohcpc01
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20003
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: dgoc44u
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20004
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: slph00051
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tc5175290
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20009
-      adapter: bve_plugin
+      adapter: bve-plugin
 
 - id: pc-multi_openbve
   name: "OpenBVE"
@@ -561,42 +561,42 @@
   hardware:
     - id: tcpp20002
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: sotp031201
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: zkns001
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: dgc255
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20001
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: dyc288
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20014
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: ohcpc01
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20011
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: cotm02001
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20003
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: dgoc44u
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20004
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: slph00051
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tc5175290
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: bve-plugin
     - id: tcpp20009
-      adapter: bve_plugin
+      adapter: bve-plugin
 
 - id: pc-windows_traincrew
   name: "Train Crew"

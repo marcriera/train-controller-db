@@ -49,8 +49,8 @@
   {{ if and (eq $supported_hardware.id $hardware.id) (eq $software.system $system.id) }}
   <tr>
     <td><a href='{{ "software" | relURL }}/{{ $software.id }}'>{{ $software.name_en }} ({{ $system.name }})</a></td>
-    <td id="{{ if or .unofficial .partial }}partial{{ else }}native{{ end }}">{{ if .unofficial }}Unofficial{{ else if .partial }}Partial{{ else }}Native{{ end }}</td>
-    <td>{{ .notes }} {{ if .adapter }}<a href="{{ index $.Site.Data.adapters .adapter "ref" }}">{{ index $.Site.Data.adapters .adapter "notes" }}</a>{{ end }}</td>
+    <td id="{{ if or $supported_hardware.unofficial $supported_hardware.partial }}partial{{ else }}native{{ end }}">{{ if $supported_hardware.unofficial }}Unofficial{{ else if $supported_hardware.partial }}Partial{{ else }}Native{{ end }}</td>
+    <td>{{ $supported_hardware.notes }} {{ if $supported_hardware.adapter }}<a href="{{ "adapters" | relURL }}#{{ $supported_hardware.adapter }}">{{ index $.Site.Data.adapter $supported_hardware.adapter "notes" }}</a>{{ end }}</td>
   </tr>
   {{ end }}
   {{ end }}
