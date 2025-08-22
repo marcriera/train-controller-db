@@ -34,7 +34,7 @@
   name_en: "Densha de GO!"
   name: "電車でGO！"
   date: 1999-04-23
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -47,7 +47,7 @@
   name_en: "Densha de GO! 2 Kōsoku-hen"
   name: "電車でGO！2高速編"
   date: 1999-03-18
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -60,7 +60,7 @@
   name_en: "Densha de GO! Professional"
   name: "電車でGO！プロフェッショナル仕様"
   date: 2001-06-15
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -71,7 +71,7 @@
   name_en: "Densha de GO! Nagoya Tetsudō-hen"
   name: "電車でGO！名古屋鉄道編"
   date: 2000-12-01
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -84,7 +84,7 @@
   name_en: "Kisha de GO!"
   name: "汽車でGO！"
   date: 2001-02-09
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -97,7 +97,7 @@
   name_en: "Densha de GO! 3 Tsūkin-hen Daiya Kaisei"
   name: "電車でGO！3通勤編 ダイヤ改正"
   date: 2002-03-21
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -108,7 +108,7 @@
   name_en: "Densha de GO! Shinkansen San'yō Shinkansen-hen"
   name: "電車でGO！新幹線 山陽新幹線編"
   date: 2002-12-13
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -119,7 +119,7 @@
   name_en: "Densha de GO! Ryojōhen"
   name: "電車でGO!旅情編"
   date: 2003-06-05
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -130,7 +130,7 @@
   name_en: "Densha de GO! Professional 2"
   name: "電車でGO!プロフェッショナル2"
   date: 2003-04-30
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -141,7 +141,7 @@
   name_en: "Densha de GO! Final"
   name: "電車でGO! FINAL"
   date: 2004-12-17
-  system: pc-windows
+  system: pc_windows
   series: ddgo
   hardware:
     - id: dgc255
@@ -486,7 +486,7 @@
   name: "Train Simulator"
   name_en: "Train Simulator"
   date: 1995-08-19
-  system: pc-windows
+  system: pc_windows
   series: train_simulator
   notes: "Multiple entries released from 1995 to 2000."
   hardware:
@@ -499,7 +499,7 @@
   name: "Train Simulator PLUS"
   name_en: "Train Simulator PLUS"
   date: 2000-07-19
-  system: pc-windows
+  system: pc_windows
   series: train_simulator
   notes: "Multiple entries released from 2000 to 2001."
   hardware:
@@ -510,7 +510,7 @@
   name: "BVE Trainsim"
   name_en: "BVE Trainsim"
   date: 2011-09-05
-  system: pc-windows
+  system: pc_windows
   series: other
   url: "https://bvets.net/en/"
   notes: "Compatibility applies to version 5 or later."
@@ -554,7 +554,7 @@
   name: "OpenBVE"
   name_en: "OpenBVE"
   date: 2009-03-23
-  system: pc-multi
+  system: pc_multi
   series: other
   url: "https://openbve-project.net/"
   notes: "Controllers are supported on version 1.8.2.0 or later via built-in input plugins."
@@ -602,7 +602,7 @@
   name: "Train Crew"
   name_en: "Train Crew"
   date: 2021-09-30
-  system: pc-windows
+  system: pc_windows
   series: other
   url: "https://acty-soft.com/traincrew/"
   hardware:
@@ -618,7 +618,7 @@
   name: "Hmmsim Metro"
   name_en: "Hmmsim Metro"
   date: 2021-06-25
-  system: pc-windows
+  system: pc_windows
   series: other
   url: "https://jeminie.kr/Hmmsim-Metro"
   hardware:
@@ -632,14 +632,14 @@
   name_en: "Japanese Rail Sim: Journey to Kyoto"
   name: "電鉄道にっぽん！路線たび 叡山電車編"
   date: 2022-06-22
-  system: pc-windows
+  system: pc_windows
   series: japanese_rail_sim
 
 - id: pc_windows-japanese_rail_sim_meitetsu
   name_en: "Japanese Rail Sim: Operating the MEITETSU Line"
   name: "鉄道にっぽん！RealPro 名古屋鉄道編 PC Edition"
   date: 2023-04-27
-  system: pc-windows
+  system: pc_windows
   series: japanese_rail_sim
   url: "https://store.steampowered.com/app/2281540/Japanese_Rail_Sim_Operating_the_MEITETSU_Line/"
   hardware:
@@ -649,7 +649,7 @@
   name: "JR EAST Train Simulator"
   name_en: "JR EAST Train Simulator"
   date: 2022-11-15
-  system: pc-windows
+  system: pc_windows
   series: other
   url: "https://store.steampowered.com/app/2111630/JR_EAST_Train_Simulator/"
   hardware:
@@ -659,7 +659,7 @@
   name: "Tramcity Hakodate"
   name_en: "Tramcity Hakodate"
   date: 2024-01-04
-  system: pc-windows
+  system: pc_windows
   series: other
   url: "https://store.steampowered.com/app/2614000/TRAMCITY_HAKODATE/"
   hardware:
