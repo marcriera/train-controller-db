@@ -1,41 +1,41 @@
-- id: dreamcast_densha2
+- id: dreamcast-ddgo2
   name_en: "Densha de GO! 2 Kōsoku-hen 3000 Bandai"
   name: "電車でGO!2高速編3000番台"
   date: 2000-01-20
   code: "T-1102M"
   system: dreamcast
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20004
 
-- id: n64_densha64
+- id: n64-ddgo64
   name_en: "Densha de GO! 64"
   name: "電車でGO！64"
   date: 1999-07-23
   code: "NUS-ND6J-JPN"
   system: n64
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20003
       notes: "Connect standard controller to P1 and train controller to P3."
 
-- id: saturn_densha
+- id: saturn-ddgo
   name_en: "Densha de GO! EX"
   name: "電車でGO！EX"
   date: 1998-10-01
   code: "T-10317G"
   system: saturn
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tc5175290
       notes: "Select controller on game startup."
 
-- id: pc-windows_densha
+- id: pc_windows-ddgo
   name_en: "Densha de GO!"
   name: "電車でGO！"
   date: 1999-04-23
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
       notes: "Original release requires update."
@@ -43,12 +43,12 @@
       notes: "Original release requires update."
     - id: dgoc44
 
-- id: pc-windows_densha2
+- id: pc_windows-ddgo2
   name_en: "Densha de GO! 2 Kōsoku-hen"
   name: "電車でGO！2高速編"
   date: 1999-03-18
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
       notes: "Original release requires update."
@@ -56,23 +56,23 @@
       notes: "Original release requires update."
     - id: dgoc44
 
-- id: pc-windows_pro
+- id: pc_windows-ddgo_pro
   name_en: "Densha de GO! Professional"
   name: "電車でGO！プロフェッショナル仕様"
   date: 2001-06-15
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
     - id: dgoc44u
     - id: dgoc44
 
-- id: pc-windows_nagoya
+- id: pc_windows-ddgo_nagoya
   name_en: "Densha de GO! Nagoya Tetsudō-hen"
   name: "電車でGO！名古屋鉄道編"
   date: 2000-12-01
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
       notes: "Original release requires update."
@@ -80,12 +80,12 @@
       notes: "Original release requires update."
     - id: dgoc44
 
-- id: pc-windows_kisha
+- id: pc_windows-ddgo_kisha
   name_en: "Kisha de GO!"
   name: "汽車でGO！"
   date: 2001-02-09
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
       notes: "Original release requires update."
@@ -93,128 +93,128 @@
       notes: "Original release requires update."
     - id: dgoc44
 
-- id: pc-windows_densha3
+- id: pc_windows-ddgo3
   name_en: "Densha de GO! 3 Tsūkin-hen Daiya Kaisei"
   name: "電車でGO！3通勤編 ダイヤ改正"
   date: 2002-03-21
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
     - id: dgoc44u
     - id: dgoc44
 
-- id: pc-windows_shinkansen
+- id: pc_windows-ddgo_shinkansen
   name_en: "Densha de GO! Shinkansen San'yō Shinkansen-hen"
   name: "電車でGO！新幹線 山陽新幹線編"
   date: 2002-12-13
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
     - id: dgoc44u
     - id: dgoc44
 
-- id: pc-windows_ryojouhen
+- id: pc_windows-ddgo_ryojouhen
   name_en: "Densha de GO! Ryojōhen"
   name: "電車でGO!旅情編"
   date: 2003-06-05
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
     - id: dyc288
     - id: dgoc44u
 
-- id: pc-windows_pro2
+- id: pc_windows-ddgo-pro2
   name_en: "Densha de GO! Professional 2"
   name: "電車でGO!プロフェッショナル2"
   date: 2003-04-30
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
     - id: dyc288
     - id: dgoc44u
 
-- id: pc-windows_final
+- id: pc_windows-ddgo_final
   name_en: "Densha de GO! Final"
   name: "電車でGO! FINAL"
   date: 2004-12-17
   system: pc-windows
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgc255
     - id: dyc288
     - id: dgoc44u
 
-- id: ps1_densha
+- id: ps1-ddgo
   name_en: "Densha de GO!"
   name: "電車でGO！"
   date: 1997-12-18
   code: "SCPS-45166"
   system: ps1
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
     - id: tcpp20001
     - id: slph00051
 
-- id: ps1_densha2
+- id: ps1-ddgo2
   name_en: "Densha de GO! 2 Kōsoku-hen"
   name: "電車でGO！2高速編"
   date: 1999-03-18
   code: "SLPM-86142"
   system: ps1
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
     - id: tcpp20001
     - id: slph00051
 
-- id: ps1_pro
+- id: ps1-ddgo_pro
   name_en: "Densha de GO! Professional"
   name: "電車でGO！プロフェッショナル仕様"
   date: 1999-12-09
   code: "SLPM-86378"
   system: ps1
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
     - id: tcpp20001
     - id: slph00051
 
-- id: ps1_nagoya
+- id: ps1-ddgo_nagoya
   name_en: "Densha de GO! Nagoya Tetsudō-hen"
   name: "電車でGO！名古屋鉄道編"
   date: 2000-01-27
   code: "SLPM-86424"
   system: ps1
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
     - id: tcpp20001
     - id: slph00051
 
-- id: ps1_kisha
+- id: ps1-ddgo_kisha
   name_en: "Kisha de GO!"
   name: "汽車でGO！"
   date: 2000-03-23
   code: "SLPM-86449"
   system: ps1
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
     - id: tcpp20001
     - id: slph00051
 
-- id: ps2_densha3
+- id: ps2-ddgo3
   name_en: "Densha de GO! 3 Tsūkin-hen"
   name: "電車でGO！3通勤編"
   date: 2001-03-15
   code: "SLPM-62049"
   system: ps2
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
     - id: sotp031201
@@ -223,13 +223,13 @@
     - id: slph00051
     - id: tcpp20009
 
-- id: ps2_shinkansen
+- id: ps2-ddgo_shinkansen
   name_en: "Densha de GO! Shinkansen San'yō Shinkansen-hen"
   name: "電車でGO！新幹線 山陽新幹線編"
   date: 2001-09-20
   code: "SLPM-65039"
   system: ps2
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
     - id: sotp031201
@@ -239,82 +239,82 @@
     - id: slph00051
     - id: tcpp20009
 
-- id: ps2_ryojouhen
+- id: ps2-ddgo_ryojouhen
   name_en: "Densha de GO! Ryojōhen"
   name: "電車でGO!旅情編"
   date: 2002-07-25
   code: "SLPM-65148"
   system: ps2
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: tcpp20009
 
-- id: ps2_pro2
+- id: ps2-ddgo_pro2
   name_en: "Densha de GO! Professional 2"
   name: "電車でGO!プロフェッショナル2"
   date: 2003-02-27
   code: "SLPM-65243"
   system: ps2
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: tcpp20009
 
-- id: ps2_final
+- id: ps2-ddgo_final
   name_en: "Densha de GO! Final"
   name: "電車でGO! FINAL"
   date: 2004-05-27
   code: "SLPM-65590"
   system: ps2
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2-cheats
+      adapter: ps2_cheats
     - id: tcpp20009
 
-- id: ps2_trainyamanote
+- id: ps2-train_simulator_real_yamanote
   name_en: "Train Simulator Real: THE Yamanote Line"
   name: "Train Simulator Real THE 山手線"
   date: 2001-10-04
   code: "SCPS-15018"
   system: ps2
-  series: train-simulator
+  series: train_simulator
   hardware:
     - id: vok00105
       notes: "Requires official USB adapter. Set to Type F."
@@ -324,13 +324,13 @@
       notes: "P5/B8 cartridge."
     - id: tcpp20009
 
-- id: ps2_trainkeihin
+- id: ps2-train_simulator_real_keihin
   name_en: "Train Simulator Real: THE Keihin Electric Express Railway"
   name: "Train Simulator Real THE 京浜急行"
   date: 2002-10-31
   code: "SCPS-15035"
   system: ps2
-  series: train-simulator
+  series: train_simulator
   hardware:
     - id: vok00105
       notes: "Requires official USB adapter. Set to Type C."
@@ -340,13 +340,13 @@
       notes: "P5/B5 cartridge."
     - id: cotm02001
 
-- id: ps2_trainmidosuji
+- id: ps2-train_simulator_midousuji
   name_en: "Train Simulator: Midōsuji Line"
   name: "Train Simulator 御堂筋線"
   date: 2003-10-30
   code: "SLPM-65386"
   system: ps2
-  series: train-simulator
+  series: train_simulator
   hardware:
     - id: vok00105
       notes: "Requires official USB adapter. Set to Type D."
@@ -356,13 +356,13 @@
       notes: "P4/B2-B7, P5/B5 cartridges."
     - id: cotm02001
 
-- id: ps2_traindensha
+- id: ps2-train_simulator_ddgo_tokyu
   name_en: "Train Simulator + Densha de GO!: Tokyu Line"
   name: "Train Simulator+電車でGO! 東京急行編"
   date: 2003-12-18
   code: "SLPM-65472"
   system: ps2
-  series: train-simulator
+  series: train_simulator
   hardware:
     - id: vok00105
       notes: "Requires official USB adapter. Set to Type D."
@@ -372,13 +372,13 @@
       notes: "P4/B7, P5/B5 cartridges."
     - id: cotm02001
 
-- id: ps2_trainkeitokei
+- id: ps2-train_simulator_keitokei
   name_en: "Train Simulator: Keisei, Toei Asakusa, Keikyu Lines"
   name: "Train Simulator 京成・都営浅草・京急線"
   date: 2005-08-25
   code: "SLPM-67007"
   system: ps2
-  series: train-simulator
+  series: train_simulator
   hardware:
     - id: vok00105
       notes: "Requires official USB adapter. Set to Type C."
@@ -389,13 +389,13 @@
     - id: tcpp20011
     - id: cotm02001
 
-- id: ps2_trainshinkansen
+- id: ps2-train_simulator_shinkansen
   name_en: "Train Simulator: Kyūshū Shinkansen"
   name: "Train Simulator 九州新幹線"
   date: 2005-10-01
   code: "SLPM-67006"
   system: ps2
-  series: train-simulator
+  series: train_simulator
   hardware:
     - id: vok00105
       notes: "Requires official USB adapter. Set to Type G."
@@ -405,7 +405,7 @@
       notes: "P5/B7, P13/B7 cartridges."
     - id: tcpp20011
 
-- id: ps3_railfanchicago
+- id: ps3-railfan_chicago
   name_en: "Railfan: Chicago Transit Authority Brown Line"
   name: "レールファン"
   date: 2006-12-20
@@ -417,7 +417,7 @@
       notes: "P5/B8 cartridge."
     - id: tcpp20009
 
-- id: ps3_railfantaiwan
+- id: ps3-railfan_taiwan
   name_en: "Railfan: Taiwan High Speed Rail"
   name: "レールファン 台湾高鉄"
   date: 2007-07-12
@@ -425,13 +425,13 @@
   system: ps3
   series: other
 
-- id: ps4_yamanote
+- id: ps4-ddgo_yamanote
   name_en: "Densha de GO! Hashirō Yamanote‑sen"
   name: "電車でGO!! はしろう山手線"
   date: 2020-12-03
   code: "PLJM-16643"
   system: ps4
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -455,13 +455,13 @@
       unofficial: yes
       adapter: titan
 
-- id: ps4_japankyoto
+- id: ps4-japanese_rail_sim_kyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
   name: "電鉄道にっぽん！路線たび 叡山電車編"
   date: 2020-12-10
   code: "PLJM-16754"
   system: ps4
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -482,12 +482,12 @@
       unofficial: yes
       adapter: titan
 
-- id: pc-windows_trainsim
+- id: pc_windows-train_simulator
   name: "Train Simulator"
   name_en: "Train Simulator"
   date: 1995-08-19
   system: pc-windows
-  series: train-simulator
+  series: train_simulator
   notes: "Multiple entries released from 1995 to 2000."
   hardware:
     - id: vok00105
@@ -495,18 +495,18 @@
     - id: vok00106
       notes: "Many entries require companion software to use the controller."
 
-- id: pc-windows_trainsimplus
+- id: pc_windows-train_simulator_plus
   name: "Train Simulator PLUS"
   name_en: "Train Simulator PLUS"
   date: 2000-07-19
   system: pc-windows
-  series: train-simulator
+  series: train_simulator
   notes: "Multiple entries released from 2000 to 2001."
   hardware:
     - id: vok00105
     - id: vok00106
 
-- id: pc-windows_bve
+- id: pc_windows-bve_trainsim
   name: "BVE Trainsim"
   name_en: "BVE Trainsim"
   date: 2011-09-05
@@ -517,40 +517,40 @@
   hardware:
     - id: tcpp20002
       notes: "Requires USB adapter."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: sotp031201
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: zkns001
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: dgc255
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20001
       notes: "Requires USB adapter."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: dyc288
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20014
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: ohcpc01
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20003
       notes: "Requires USB adapter."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: dgoc44u
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20004
       notes: "Requires USB adapter."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: slph00051
       notes: "Requires USB adapter."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tc5175290
       notes: "Requires USB adapter."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20009
-      adapter: bve-plugin
+      adapter: bve_plugin
 
-- id: pc-multi_openbve
+- id: pc_multi-openbve
   name: "OpenBVE"
   name_en: "OpenBVE"
   date: 2009-03-23
@@ -561,44 +561,44 @@
   hardware:
     - id: tcpp20002
       notes: "Requires USB adapter and calibration."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: sotp031201
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: zkns001
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: dgc255
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20001
       notes: "Requires USB adapter and calibration."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: dyc288
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20014
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: ohcpc01
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20011
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: cotm02001
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20003
       notes: "Requires USB adapter and calibration."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: dgoc44u
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20004
       notes: "Requires USB adapter and calibration."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: slph00051
       notes: "Requires USB adapter and calibration."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tc5175290
       notes: "Requires USB adapter and calibration."
-      adapter: bve-plugin
+      adapter: bve_plugin
     - id: tcpp20009
-      adapter: bve-plugin
+      adapter: bve_plugin
 
-- id: pc-windows_traincrew
+- id: pc_windows-train_crew
   name: "Train Crew"
   name_en: "Train Crew"
   date: 2021-09-30
@@ -614,7 +614,7 @@
     - id: ohcpc01
     - id: dgoc44u
 
-- id: pc-windows_hmmsimmetro
+- id: pc_windows-hmmsim_metro
   name: "Hmmsim Metro"
   name_en: "Hmmsim Metro"
   date: 2021-06-25
@@ -628,24 +628,24 @@
       notes: "Set power to 4 and brake to 7."
     - id: zkns001
 
-- id: pc-windows_japankyoto
+- id: pc_windows-japanese_rail_sim_kyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
   name: "電鉄道にっぽん！路線たび 叡山電車編"
   date: 2022-06-22
   system: pc-windows
-  series: japanese-rail-sim
+  series: japanese_rail_sim
 
-- id: pc-windows_japanmeitetsu
+- id: pc_windows-japanese_rail_sim_meitetsu
   name_en: "Japanese Rail Sim: Operating the MEITETSU Line"
   name: "鉄道にっぽん！RealPro 名古屋鉄道編 PC Edition"
   date: 2023-04-27
   system: pc-windows
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   url: "https://store.steampowered.com/app/2281540/Japanese_Rail_Sim_Operating_the_MEITETSU_Line/"
   hardware:
     - id: zkns001
 
-- id: pc-windows_jreasttrainsimulator
+- id: pc_windows-jreast_train_simulator
   name: "JR EAST Train Simulator"
   name_en: "JR EAST Train Simulator"
   date: 2022-11-15
@@ -655,7 +655,7 @@
   hardware:
     - id: zkns001
 
-- id: pc-windows_tramcityhakodate
+- id: pc_windows-tramcity_hakodate
   name: "Tramcity Hakodate"
   name_en: "Tramcity Hakodate"
   date: 2024-01-04
@@ -665,13 +665,13 @@
   hardware:
     - id: zkns001
 
-- id: switch_yamanote
+- id: switch-ddgo_yamanote
   name_en: "Densha de GO! Hashirō Yamanote‑sen"
   name: "電車でGO!! はしろう山手線"
   date: 2021-03-18
   code: "HAC-P-A2BGA"
   system: switch
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -693,29 +693,29 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_japankyoto
+- id: switch-japanese_rail_sim_kyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
   name: "電鉄道にっぽん！路線たび 叡山電車編"
   date: 2019-11-18
   code: "HAC-P-AU9WA"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
 
-- id: switch_japansangi
+- id: switch-japanese_rail_sim_sangi
   name_en: "Japanese Rail Sim: Sangi Railway"
   name: "電鉄道にっぽん！路線たび 三岐鉄道編"
   date: 2021-12-23
   code: "HAC-P-A6R9A"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
 
-- id: switch_japanakechi
+- id: switch-japanese_rail_sim_akechi
   name_en: "Japanese Rail Sim: Akechi Railway"
   name: "電鉄道にっぽん！路線たび 明知鉄道編"
   date: 2022-08-25
   code: "HAC-P-A8YZA"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -737,13 +737,13 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_japanpronagoya
+- id: switch-japanese_rail_sim_pro_nagoya
   name_en: "Japanese Rail Sim Real Pro: Nagoya Railway"
   name: "電鉄道にっぽん！Real Pro 特急走行!名古屋鉄道編"
   date: 2022-12-15
   code: "HAC-P-A9QAA"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -765,13 +765,13 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_japanexnagaragawa
+- id: switch-japanese_rail_sim_ex_nagaragawa
   name_en: "Japanese Rail Sim EX: Nagaragawa Railway"
   name: "鉄道にっぽん！路線たびEX 清流運転 長良川鉄道編"
   date: 2023-08-24
   code: "HAC-P-BCXNA"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -793,13 +793,13 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_japanproodakyu
+- id: switch-japanese_rail_sim_real_pro_odakyu
   name_en: "Japanese Rail Sim Real Pro: Odakyu Electric Railway"
   name: "鉄道にっぽん！RealPro 特急ロマンスカー！小田急電鉄編"
   date: 2023-12-14
   code: "HAC-P-BE2DA"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -821,13 +821,13 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_japanexhakone
+- id: switch-japanese_rail_sim_hakone
   name_en: "Japanese Rail Sim Hakone"
   name: "鉄道にっぽん！路線たびＥＸ 登山電車 小田急箱根編"
   date: 2024-09-19
   code: "HAC-P-BKFUA"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -849,13 +849,13 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_japanmemnanki
+- id: switch-japanese_rail_sim_memorial_nanki
   name_en: "Japanese Rail Sim Memorial: JR Central Kiha 85 Limited Express Nanki"
   name: "鉄道にっぽん！メモリアル ＪＲ東海 キハ８５ 特急南紀 編"
   date: 2024-12-19
   code: "HAC-P-BLUSA"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -877,13 +877,13 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_japanprotokyu
+- id: switch-japanese_rail_sim_real_pro_tokyu
   name_en: "Japanese Rail Sim Real Pro: Tōkyū Electric Railway"
   name: "鉄道にっぽん！RealPro 東京－神奈川！東急電鉄 編"
   date: 2025-08-21
   code: "HAC-P-BPM8A"
   system: switch
-  series: japanese-rail-sim
+  series: japanese_rail_sim
   hardware:
     - id: dgoc44u
       unofficial: yes
@@ -905,7 +905,7 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_korean-rail-driving-tour
+- id: switch-korean_rail_driving_tour
   name_en: "Korean Rail Driving Tour"
   name: "Korean Rail Driving Tour"
   date: 2024-03-01
@@ -933,7 +933,7 @@
       unofficial: yes
       adapter: titan
 
-- id: switch_korean-drone-flying-tour
+- id: switch-korean_drone_flying_tour
   name_en: "Korean Drone Flying Tour"
   name: "Korean Drone Flying Tour"
   date: 2024-08-22
@@ -961,12 +961,12 @@
       unofficial: yes
       adapter: titan
 
-- id: wii_shinkansen
+- id: wii-ddgo_shinkansen
   name_en: "Densha de GO! Shinkansen EX San'yō Shinkansen-hen"
   name: "電車でGO！新幹線EX 山陽新幹線編"
   date: 2007-03-01
   code: "RVL-P-RG4J"
   system: wii
-  series: densha-de-go
+  series: ddgo
   hardware:
     - id: tcpp20017

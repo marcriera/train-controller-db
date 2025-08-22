@@ -16,7 +16,7 @@
   name: "Nintendo Switch"
 - id: wii
   name: "Nintendo Wii"
-- id: pc-windows
+- id: pc_windows
   name: "PC - Windows"
-- id: pc-multi
+- id: pc_multi
   name: "PC - Multiplatform"

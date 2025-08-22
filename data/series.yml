@@ -1,10 +1,10 @@
-- id: densha-de-go
+- id: ddgo
   name: "Densha de GO!"
   sort: 1
-- id: japanese-rail-sim
+- id: japanese_rail_sim
   name: "Japanese Rail Sim"
   sort: 2
-- id: train-simulator
+- id: train_simulator
   name: "Train Simulator"
   sort: 3
 - id: other
