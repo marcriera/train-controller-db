@@ -3,7 +3,8 @@ title: "One handle controller / ZUIKI Mascon (Nintendo Switch)"
 hidden: true
 ---
 
-{{% hardware-page zkns001 %}}
+{{% hardware-overview zkns001 %}}
+{{% hardware-support zkns001 %}}
 
 ## Technical details
 

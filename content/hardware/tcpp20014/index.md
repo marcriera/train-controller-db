@@ -3,7 +3,8 @@ title: "Ryojōhen controller (Sony PlayStation 2)"
 hidden: true
 ---
 
-{{% hardware-page tcpp20014 %}}
+{{% hardware-overview tcpp20014 %}}
+{{% hardware-support tcpp20014 %}}
 
 ## Technical details
 

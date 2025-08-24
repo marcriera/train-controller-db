@@ -3,7 +3,8 @@ title: "Multi Train Controller (Sony PlayStation 2)"
 hidden: true
 ---
 
-{{% hardware-page sotp031201 %}}
+{{% hardware-overview sotp031201 %}}
+{{% hardware-support sotp031201 %}}
 
 ## Technical details
 

@@ -3,7 +3,8 @@ title: "Train Mascon (Sony PlayStation 2)"
 hidden: true
 ---
 
-{{% hardware-page cotm02001 %}}
+{{% hardware-overview cotm02001 %}}
+{{% hardware-support cotm02001 %}}
 
 ## Technical details
 

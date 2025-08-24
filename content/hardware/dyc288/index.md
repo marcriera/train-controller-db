@@ -3,4 +3,5 @@ title: "Ryojōhen controller (PC)"
 hidden: true
 ---
 
-{{% hardware-page dyc288 %}}
+{{% hardware-overview dyc288 %}}
+{{% hardware-support dyc288 %}}

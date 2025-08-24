@@ -3,7 +3,8 @@ title: "Two handle controller (Nintendo 64)"
 hidden: true
 ---
 
-{{% hardware-page tcpp20003 %}}
+{{% hardware-overview tcpp20003 %}}
+{{% hardware-support tcpp20003 %}}
 
 ## Technical details
 

@@ -2,7 +2,8 @@
 title: "Densha de GO! Plug and Play"
 hidden: true
 ---
-{{% hardware-page ddgo_pnp %}}
+{{% hardware-overview ddgo_pnp %}}
+{{% hardware-support ddgo_pnp %}}
 
 ## Technical details
 

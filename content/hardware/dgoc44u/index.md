@@ -3,7 +3,8 @@ title: "Two handle controller (PC)"
 hidden: true
 ---
 
-{{% hardware-page dgoc44u %}}
+{{% hardware-overview dgoc44u %}}
+{{% hardware-support dgoc44u %}}
 
 ## Technical details
 

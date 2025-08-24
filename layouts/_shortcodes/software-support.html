@@ -1,46 +1,4 @@
 {{ range $software := where $.Site.Data.software "id" (.Get 0) }}
-{{ $image := printf "static/images/software/%s.jpg" .id }}
-
-## Overview
-
-<table class="datatable">
-  <colgroup>
-    {{ if fileExists $image }}<col class="col-pic">{{ end }}
-  <col class="col-headers">
-    <col class="col-data">
-  </colgroup>
-  <tr>
-    {{ if fileExists $image }}<td rowspan="0" id="image"><img src='{{ printf "images/software/%s.jpg" .id | relLangURL }}'/></td>{{ end }}
-  <td><strong>Name</strong></td>
-    <td>{{ .name_en }}</td>
-  </tr>
-  {{ if .name }}
-  <tr>
-    <td><strong>Original name</strong></td>
-    <td>{{ .name }}</td>
-  </tr>
-  {{ end }}
-  <tr>
-    <td><strong>Release date</strong></td>
-    <td>{{ .date | time.Format ":date_long" }}</td>
-  </tr>
-  {{ if .code }}
-  <tr>
-    <td><strong>Serial code</strong></td>
-    <td>{{ .code }}</td>
-  </tr>
-  {{ end }}
-  {{ if .url }}
-  <tr>
-    <td><strong>Website</strong></td>
-    <td><a href="{{ .url }}" target="_blank">{{ .url }}</a></td>
-  </tr>
-  {{ end }}
-  <tr>
-    <td><strong>Notes</strong></td>
-    <td>{{ .notes }}</td>
-  </tr>
-</table>
 
 ## Supported hardware
 

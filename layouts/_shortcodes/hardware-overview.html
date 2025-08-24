@@ -1,0 +1,31 @@
+{{ range $hardware := where $.Site.Data.hardware "id" (.Get 0) }}
+{{ $image := printf "static/images/hardware/%s.jpg" .id }}
+
+## Overview
+
+<table class="datatable">
+  <colgroup>
+    {{ if fileExists $image }}<col class="col-pic">{{ end }}
+  <col class="col-headers">
+    <col class="col-data">
+  </colgroup>
+  <tr>
+    {{ if fileExists $image }}<td rowspan="0" id="image"><img src='{{ printf "images/hardware/%s.jpg" .id | relLangURL }}'/></td>{{ end }}
+  <td><strong>Name</strong></td>
+    <td>{{ .name }}</td>
+  </tr>
+  <tr>
+    <td><strong>Release date</strong></td>
+    <td>{{ .date | time.Format ":date_long" }}</td>
+  </tr>
+  <tr>
+    <td><strong>Serial code</strong></td>
+    <td>{{ .code }}</td>
+  </tr>
+  <tr>
+    <td><strong>Notes</strong></td>
+    <td>{{ .notes | markdownify }}</td>
+  </tr>
+</table>
+
+{{ end }}

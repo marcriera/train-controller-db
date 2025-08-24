@@ -1,5 +1,5 @@
 {{ range $software := .Site.Data.software }}
-  {{ $shortcode := replace "{{% software-page SOFTWARE_ID %}}" "SOFTWARE_ID" .id }}
+  {{ $shortcode := replace "{{% software-overview SOFTWARE_ID %}}{{% software-support SOFTWARE_ID %}}" "SOFTWARE_ID" .id }}
   {{ $content := dict
     "mediaType" "text/markdown"
     "value" $shortcode

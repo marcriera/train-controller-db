@@ -3,7 +3,8 @@ title: "Shinkansen controller (Sony PlayStation 2)"
 hidden: true
 ---
 
-{{% hardware-page tcpp20011 %}}
+{{% hardware-overview tcpp20011 %}}
+{{% hardware-support tcpp20011 %}}
 
 ## Technical details
 

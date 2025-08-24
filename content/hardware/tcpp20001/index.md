@@ -3,7 +3,8 @@ title: "One handle controller (Sony PlayStation)"
 hidden: true
 ---
 
-{{% hardware-page tcpp20001 %}}
+{{% hardware-overview tcpp20001 %}}
+{{% hardware-support tcpp20001 %}}
 
 ## Technical details
 

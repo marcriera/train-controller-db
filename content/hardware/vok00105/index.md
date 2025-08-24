@@ -3,7 +3,8 @@ title: "Master Controller (PC)"
 hidden: true
 ---
 
-{{% hardware-page vok00105 %}}
+{{% hardware-overview vok00105 %}}
+{{% hardware-support vok00105 %}}
 
 ## Technical details
 

@@ -3,7 +3,8 @@ title: "Two handle controller (Sega Saturn)"
 hidden: true
 ---
 
-{{% hardware-page tc5175290 %}}
+{{% hardware-overview tc5175290 %}}
+{{% hardware-support tc5175290 %}}
 
 ## Technical details
 

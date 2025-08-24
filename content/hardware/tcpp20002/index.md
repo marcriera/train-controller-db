@@ -3,7 +3,8 @@ title: "Mamecon (Sony PlayStation)"
 hidden: true
 ---
 
-{{% hardware-page tcpp20002 %}}
+{{% hardware-overview tcpp20002 %}}
+{{% hardware-support tcpp20002 %}}
 
 ## Technical details
 
