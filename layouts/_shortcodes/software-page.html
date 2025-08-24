@@ -1,4 +1,4 @@
-{{ range $software := where $.Site.Data.software "id" $.Inner }}
+{{ range $software := where $.Site.Data.software "id" (.Get 0) }}
 {{ $image := printf "static/images/software/%s.jpg" .id }}
 
 ## Overview

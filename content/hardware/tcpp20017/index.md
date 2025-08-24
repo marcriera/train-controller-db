@@ -3,7 +3,7 @@ title: "Shinkansen controller (Nintendo Wii)"
 hidden: true
 ---
 
-{{% hardware-page %}}tcpp20017{{% /hardware-page %}}
+{{% hardware-page tcpp20017 %}}
 
 ## Technical details
 

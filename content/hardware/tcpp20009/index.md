@@ -3,7 +3,7 @@ title: 'Two handle controller "Type 2" (Sony PlayStation 2)'
 hidden: true
 ---
 
-{{% hardware-page %}}tcpp20009{{% /hardware-page %}}
+{{% hardware-page tcpp20009 %}}
 
 ## Technical details
 

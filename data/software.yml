@@ -597,6 +597,7 @@
       adapter: bve_plugin
     - id: tcpp20009
       adapter: bve_plugin
+    - id: rd91mdt
 
 - id: pc_windows-train_crew
   name: "Train Crew"
@@ -664,6 +665,25 @@
   url: "https://store.steampowered.com/app/2614000/TRAMCITY_HAKODATE/"
   hardware:
     - id: zkns001
+
+- id: pc_windows-microsoft_train_simulator
+  name: "Microsoft Train Simulator"
+  name_en: "Microsoft Train Simulator"
+  date: 2001-06-18
+  system: pc_windows
+  series: other
+  hardware:
+    - id: rd91mdt
+      notes: "Requires companion software by RailDriver."
+
+- id: pc_windows-openrails
+  name: "Open Rails"
+  name_en: "Open Rails"
+  date: 2015-05-21
+  system: pc_windows
+  series: other
+  hardware:
+    - id: rd91mdt
 
 - id: switch-ddgo_yamanote
   name_en: "Densha de GO! Hashirō Yamanote‑sen"
@@ -737,7 +757,7 @@
       unofficial: yes
       adapter: titan
 
-- id: switch-japanese_rail_sim_pro_nagoya
+- id: switch-japanese_rail_sim_real_pro_nagoya
   name_en: "Japanese Rail Sim Real Pro: Nagoya Railway"
   name: "電鉄道にっぽん！Real Pro 特急走行!名古屋鉄道編"
   date: 2022-12-15

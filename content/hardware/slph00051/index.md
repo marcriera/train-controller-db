@@ -3,7 +3,7 @@ title: "Two handle controller (Sony PlayStation)"
 hidden: true
 ---
 
-{{% hardware-page %}}slph00051{{% /hardware-page %}}
+{{% hardware-page slph00051 %}}
 
 ## Technical details
 

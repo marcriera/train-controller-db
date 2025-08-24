@@ -3,7 +3,7 @@ title: "Master Controller II (PC)"
 hidden: true
 ---
 
-{{% hardware-page %}}vok00106{{% /hardware-page %}}
+{{% hardware-page vok00106 %}}
 
 ## Technical details
 

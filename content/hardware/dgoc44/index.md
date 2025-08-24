@@ -3,7 +3,7 @@ title: "Two handle controller, game port (PC)"
 hidden: true
 ---
 
-{{% hardware-page %}}dgoc44{{% /hardware-page %}}
+{{% hardware-page dgoc44 %}}
 
 ## Technical details
 

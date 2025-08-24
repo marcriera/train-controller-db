@@ -44,6 +44,12 @@
   date: 2023-12-07
   type: standalone
 
+- id: rd91mdt
+  name: "RailDriver Desktop Train Cab Controller (PC)"
+  date: 2002-12-01
+  code: "RD-91-MDT"
+  type: usb
+
 - id: sotp031201
   name: "Multi Train Controller (Sony PlayStation 2)"
   date: 2003-12-18

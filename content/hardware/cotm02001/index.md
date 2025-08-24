@@ -3,7 +3,7 @@ title: "Train Mascon (Sony PlayStation 2)"
 hidden: true
 ---
 
-{{% hardware-page %}}cotm02001{{% /hardware-page %}}
+{{% hardware-page cotm02001 %}}
 
 ## Technical details
 

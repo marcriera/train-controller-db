@@ -3,7 +3,7 @@ title: "Two handle controller (Sega Dreamcast)"
 hidden: true
 ---
 
-{{% hardware-page %}}tcpp20004{{% /hardware-page %}}
+{{% hardware-page tcpp20004 %}}
 
 ## Technical details
 

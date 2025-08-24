@@ -3,7 +3,7 @@ title: "One handle controller (PC)"
 hidden: true
 ---
 
-{{% hardware-page %}}dgc255{{% /hardware-page %}}
+{{% hardware-page dgc255 %}}
 
 ## Technical details
 

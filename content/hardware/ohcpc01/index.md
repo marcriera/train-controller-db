@@ -3,4 +3,4 @@ title: "Sangying one handle controller (PC)"
 hidden: true
 ---
 
-{{% hardware-page %}}ohcpc01{{% /hardware-page %}}
+{{% hardware-page ohcpc01 %}}
