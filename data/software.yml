@@ -814,7 +814,7 @@
       adapter: titan
 
 - id: switch-japanese_rail_sim_real_pro_odakyu
-  name_en: "Japanese Rail Sim Real Pro: Odakyu Electric Railway"
+  name_en: "Japanese Rail Sim Real Pro: Odakyu Electric Railway Limited Express Romancecar"
   name: "鉄道にっぽん！RealPro 特急ロマンスカー！小田急電鉄編"
   date: 2023-12-14
   code: "HAC-P-BE2DA"
@@ -902,6 +902,34 @@
   name: "鉄道にっぽん！RealPro 東京－神奈川！東急電鉄 編"
   date: 2025-08-21
   code: "HAC-P-BPM8A"
+  system: switch
+  series: japanese_rail_sim
+  hardware:
+    - id: dgoc44u
+      unofficial: yes
+      adapter: titan
+    - id: tcpp20001
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: tcpp20002
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: slph00051
+      unofficial: yes
+      notes: "Requires USB adapter."
+      adapter: titan
+    - id: zkns001
+    - id: ohcpc01
+      unofficial: yes
+      adapter: titan
+
+- id: switch-japanese_rail_sim_real_pro_kintetsu
+  name_en: "Japanese Rail Sim Real Pro: Kintetsu Railway Limited Express Hinotori"
+  name: "鉄鉄道にっぽん！ RealPro 長距離運転！特急ひのとり 近畿日本鉄道 編"
+  date: 2025-11-20
+  code: "HAC-P-?????"
   system: switch
   series: japanese_rail_sim
   hardware:
