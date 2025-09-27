@@ -1,6 +1,6 @@
-ps2_cheats:
+cheats-ps2:
   notes: "Requires use of cheat codes."
-bve_plugin:
+plugin-bve:
   notes: "Supported via input plugin."
-titan:
+adapter-titan:
   notes: "Requires use of Titan One/Titan Two device."

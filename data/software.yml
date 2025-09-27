@@ -249,17 +249,17 @@
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: tcpp20009
 
 - id: ps2-ddgo_pro2
@@ -272,17 +272,17 @@
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: tcpp20009
 
 - id: ps2-ddgo_final
@@ -295,17 +295,17 @@
   hardware:
     - id: tcpp20002
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: sotp031201
       notes: "P5/B8 cartridge."
     - id: tcpp20001
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: tcpp20014
     - id: tcpp20011
     - id: slph00051
       unofficial: yes
-      adapter: ps2_cheats
+      adapter: cheats-ps2
     - id: tcpp20009
 
 - id: ps2-train_simulator_real_yamanote
@@ -435,25 +435,25 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: ps4-japanese_rail_sim_kyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
@@ -465,22 +465,22 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: pc_windows-train_simulator
   name: "Train Simulator"
@@ -517,38 +517,38 @@
   hardware:
     - id: tcpp20002
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: sotp031201
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: zkns001
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: dgc255
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20001
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: dyc288
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20014
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: ohcpc01
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20003
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: dgoc44u
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20004
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: slph00051
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tc5175290
       notes: "Requires USB adapter."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20009
-      adapter: bve_plugin
+      adapter: plugin-bve
 
 - id: pc_multi-openbve
   name: "OpenBVE"
@@ -561,42 +561,42 @@
   hardware:
     - id: tcpp20002
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: sotp031201
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: zkns001
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: dgc255
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20001
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: dyc288
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20014
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: ohcpc01
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20011
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: cotm02001
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20003
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: dgoc44u
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20004
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: slph00051
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tc5175290
       notes: "Requires USB adapter and calibration."
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: tcpp20009
-      adapter: bve_plugin
+      adapter: plugin-bve
     - id: rd91mdt
 
 - id: pc_windows-train_crew
@@ -695,23 +695,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_kyoto
   name_en: "Japanese Rail Sim: Journey to Kyoto"
@@ -739,23 +739,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_real_pro_nagoya
   name_en: "Japanese Rail Sim Real Pro: Nagoya Railway"
@@ -767,23 +767,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_ex_nagaragawa
   name_en: "Japanese Rail Sim EX: Nagaragawa Railway"
@@ -795,23 +795,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_real_pro_odakyu
   name_en: "Japanese Rail Sim Real Pro: Odakyu Electric Railway Limited Express Romancecar"
@@ -823,23 +823,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_hakone
   name_en: "Japanese Rail Sim Hakone"
@@ -851,23 +851,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_memorial_nanki
   name_en: "Japanese Rail Sim Memorial: JR Central Kiha 85 Limited Express Nanki"
@@ -879,23 +879,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_real_pro_tokyu
   name_en: "Japanese Rail Sim Real Pro: Tōkyū Electric Railway"
@@ -907,23 +907,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-japanese_rail_sim_real_pro_kintetsu
   name_en: "Japanese Rail Sim Real Pro: Kintetsu Railway Limited Express Hinotori"
@@ -963,23 +963,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: switch-korean_drone_flying_tour
   name_en: "Korean Drone Flying Tour"
@@ -991,23 +991,23 @@
   hardware:
     - id: dgoc44u
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20001
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: tcpp20002
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: slph00051
       unofficial: yes
       notes: "Requires USB adapter."
-      adapter: titan
+      adapter: adapter-titan
     - id: zkns001
     - id: ohcpc01
       unofficial: yes
-      adapter: titan
+      adapter: adapter-titan
 
 - id: wii-ddgo_shinkansen
   name_en: "Densha de GO! Shinkansen EX San'yō Shinkansen-hen"

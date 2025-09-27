@@ -5,14 +5,14 @@ weight: 3
 
 Besides official compatibility, it is possible to use unofficial adapters, tools and hacks to use controllers with software which does not normally support train controllers.
 
-## Autotraintas's DenConv tool {#autotraintas}
+## Autotraintas's DenConv tool {#tool-autotraintas}
 
 Autotraintas has created a tool that makes it possible to use nearly any Densha de GO! controller with the PC versions of the games. This includes classic console controllers (USB adapter required) and USB controllers. The tool patches the game memory on the fly to reflect the input from the controller.
 
 The tool is available on their website: https://autotraintas.hariko.com
 
 
-## Input plugins for BVE Trainsim/OpenBVE {#bve-plugin}
+## Input plugins for BVE Trainsim/OpenBVE {#plugin-bve}
 
 BVE Trainsim and OpenBVE both support **input plugins**, which allow expanding the controllers compatible with the software.
 
@@ -28,7 +28,7 @@ BVE Trainsim requires installing external input plugins, depending on the contro
 OpenBVE includes built-in input plugins supporting a wide range of controllers. They can be enabled and configured in the software settings.
 
 
-## Sony PlayStation 2 cheat codes {#ps2-cheats}
+## Sony PlayStation 2 cheat codes {#cheats-ps2}
 
 While **Densha de GO! 3** and **Densha de GO! Shinkansen** officially support the original (non-USB) PlayStation controllers, the rest of PS2 software is only compatible with USB controllers. Via cheat codes, it is possible to use the original PlayStation controllers on real hardware, either with retail discs or via Open PS2 Loader.
 
@@ -58,7 +58,7 @@ For retail discs, the codes can be loaded with [ps2rd](https://github.com/mlafel
 Check the [technical description](ps2-cheats-tech) for all the details on how these cheat codes work. 
 
 
-## USB adapters
+## USB adapters {#adapter-usb}
 
 Console controllers can be used with many software using a USB adapter. While there is a wide variety of adapters in the market at all prices, not every one is supported. Check for the following when looking for a USB adapter:
 
