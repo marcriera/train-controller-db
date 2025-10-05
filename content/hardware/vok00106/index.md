@@ -24,7 +24,7 @@ Unlike other controllers, the notches in the two handles are adjustable. There a
 
 The power handle supports 3 to 6 notches, plus *EX* (6 notches without click). The brake handle supports 5 to 8 notches, plus *EX* (8 notches without click).
 
-The two handles are interlocked; it is only possible to move one handle at a time.
+The two handles are interlocked; it is not possible to apply power and brakes at the same time.
 
 ### Input
 

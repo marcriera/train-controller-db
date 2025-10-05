@@ -24,13 +24,13 @@ Internally, it is a vendor-specific class device. The USB descriptors and the re
 
 ### P5/B5 cartridge
 
-When this cartridge is inserted, the controller emulates the [Train Mascon](/controllers/usb/cotm02001). The buttons are mapped 1:1 except the **D** button, which is mapped to the **Close** (**閉**) button.
+When this cartridge is inserted, the controller emulates the [Train Mascon]({{% relref cotm02001 %}}). The buttons are mapped 1:1 except the **D** button, which is mapped to the **Close** (**閉**) button.
 
 The lamps are used as follows, from top to bottom: doors, ATS, 45 and 15.
 
 ### P5/B8 cartridge
 
-When this cartridge is inserted, the controller emulates the [Two handle controller "Type 2"](/controllers/usb/tcpp20009). The buttons are mapped 1:1 and **ATS** is mapped to **START**. The reverser is mapped to the D-pad **UP** and **DOWN** buttons.
+When this cartridge is inserted, the controller emulates the [Two handle controller "Type 2"]({{% relref tcpp20009 %}}). The buttons are mapped 1:1 and **ATS** is mapped to **START**. The reverser is mapped to the D-pad **UP** and **DOWN** buttons.
 
 Only the top lamp is used, for the doors.
 
