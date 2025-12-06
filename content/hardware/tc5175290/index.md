@@ -8,4 +8,4 @@ hidden: true
 
 ## Technical details
 
-The controller follows the standard [internal operation](/hardware/tech/console-controllers) of console controllers.
+The controller follows the standard [internal operation](/hardware/tech/console_controllers) of console controllers.
