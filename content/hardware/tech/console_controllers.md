@@ -50,10 +50,10 @@ Because they use the same data bytes, the input between a Densha de GO! controll
 
 | Densha de GO! | Nintendo 64 | Sony PlayStation 1 | Sega Dreamcast | Sega Saturn |
 |:-------------:|:-----------:|:------------------:|:--------------:|:-----------:|
-| SELECT        | R           | SELECT             | D              | ??          |
+| SELECT        | R           | SELECT             | D              | *Unused*    |
 | START         | START       | START              | START          | START       |
 | A             | B           | SQUARE             | A              | A           |
-| B             | A           | CROSS              | ??             | B           |
+| B             | A           | CROSS              | B              | B           |
 | C             | L           | CIRCLE             | C              | C           |
 | POWER 1       | RIGHT       | TRIANGLE           | Z              | X           |
 | POWER 2       | UP          | LEFT               | Y              | Y           |
