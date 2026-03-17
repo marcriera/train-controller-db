@@ -451,6 +451,9 @@
     - id: zkns001
       unofficial: yes
       adapter: adapter-titan
+    - id: zkns021
+      unofficial: yes
+      adapter: adapter-titan
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -479,6 +482,9 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+      unofficial: yes
+      adapter: adapter-titan
+    - id: zkns021
       unofficial: yes
       adapter: adapter-titan
 
@@ -520,8 +526,6 @@
       adapter: plugin-bve
     - id: sotp031201
       adapter: plugin-bve
-    - id: zkns001
-      adapter: plugin-bve
     - id: dgc255
       adapter: plugin-bve
     - id: tcpp20001
@@ -548,6 +552,10 @@
       notes: "Requires USB adapter."
       adapter: plugin-bve
     - id: tcpp20009
+      adapter: plugin-bve
+    - id: zkns001
+      adapter: plugin-bve
+    - id: zkns021
       adapter: plugin-bve
 
 - id: pc_multi-openbve
@@ -655,6 +663,7 @@
   url: "https://store.steampowered.com/app/2111630/JR_EAST_Train_Simulator/"
   hardware:
     - id: zkns001
+    - id: zkns021
 
 - id: pc_windows-tramcity_hakodate
   name: "Tramcity Hakodate"
@@ -709,6 +718,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -753,6 +763,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -781,6 +792,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -809,6 +821,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -837,6 +850,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -865,6 +879,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -893,6 +908,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -921,6 +937,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -949,6 +966,7 @@
       notes: "Requires USB adapter."
       adapter: titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: titan
@@ -977,6 +995,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan
@@ -1005,6 +1024,7 @@
       notes: "Requires USB adapter."
       adapter: adapter-titan
     - id: zkns001
+    - id: zkns021
     - id: ohcpc01
       unofficial: yes
       adapter: adapter-titan

@@ -22,8 +22,8 @@ BVE Trainsim requires installing external input plugins, depending on the contro
 - [DGC-255/DGOC-44U/DRC-184](http://saha209kame.web.fc2.com/BVE_ATSPI.html) (電GO PCインターフェイス by saha209)
 - [TCPP-20009/TCPP-20014/MTC with P5/B8 cartridge](http://saha209kame.web.fc2.com/BVE_ATSPI.html) (電GO PS2インターフェイス by saha209)
 - [MTC (other cartridges)](http://saha209kame.web.fc2.com/BVE_ATSPI.html) (TrainSimulator PS2 MultiTrainController(MTC)インターフェイス by saha209)
-- [ZKNS-001](http://saha209kame.web.fc2.com/BVE_ATSPI.html) (電GO SWインターフェイス by saha209)
 - [OHC-PC01](http://www.konkyu.net/SanYingControllerInterface.aspx)
+- [ZUIKI Mascon/ZUIKI Mascon Pro](http://saha209kame.web.fc2.com/BVE_ATSPI.html) (ZUIKIインターフェイス  by saha209)
 
 OpenBVE includes built-in input plugins supporting a wide range of controllers. They can be enabled and configured in the software settings.
 

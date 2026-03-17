@@ -1,5 +1,5 @@
 ---
-title: "One handle controller / ZUIKI Mascon (Nintendo Switch)"
+title: "One handle controller (Nintendo Switch) / ZUIKI Mascon"
 hidden: true
 ---
 
