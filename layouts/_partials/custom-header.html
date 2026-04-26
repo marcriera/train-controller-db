@@ -16,6 +16,8 @@
 .datatable {
     table-layout: fixed;
     width: 100%;
+    overflow-y:scroll;
+    display:block;
 }
 
 .datatable .col-pic {
@@ -35,16 +37,19 @@
 .compattable {
     table-layout: fixed;
     width: 100%;
+    overflow-y:scroll;
+    display:block;
 }
 
 .compattable .col-model {
-    width: 45%;
+    width: 46%;
 }
 .compattable .col-support {
-    width: 10%;
+    width: 8%;
+    min-width: 20px;
 }
 .compattable .col-notes {
-    width: 45%;
+    width: 46%;
 }
 
 .softwaretable .col-name {
@@ -59,10 +64,14 @@
 
 table #native {
     background-color: rgba(189,233,186,.35);
+    margin: auto;
+    text-align: center;
 }
 
 table #partial {
     background-color: rgba(255,215,140,.35);
+    margin: auto;
+    text-align: center;
 }
 
 </style>

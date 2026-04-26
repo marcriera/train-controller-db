@@ -6,24 +6,42 @@
 
 <table class="compattable">
   <colgroup>
-    <col class="col-model">
     <col class="col-support">
+    <col class="col-model">
     <col class="col-notes">
   </colgroup>
   <tr>
+    <th></th>
     <th>Software</th>
-    <th>Support</th>
     <th>Notes</th>
   </tr>
+<!-- Render the rows in 2 passes: native support first, everything else later -->
   {{ range $software := sort $.Site.Data.software "name_en" }}
   {{ range $supported_hardware := $software.hardware }}
   {{ range $system := $.Site.Data.system }}
   {{ if and (eq $supported_hardware.id $hardware.id) (eq $software.system $system.id) }}
+  {{ if not (or $supported_hardware.unofficial $supported_hardware.partial) }}
   <tr>
+    <td id="native">✓</td>
     <td><a href='{{ "software" | relURL }}/{{ $software.id }}'>{{ $software.name_en }} ({{ $system.name }})</a></td>
-    <td id="{{ if or $supported_hardware.unofficial $supported_hardware.partial }}partial{{ else }}native{{ end }}">{{ if $supported_hardware.unofficial }}Unofficial{{ else if $supported_hardware.partial }}Partial{{ else }}Native{{ end }}</td>
     <td>{{ $supported_hardware.notes }} {{ if $supported_hardware.adapter }}<a href="{{ "adapters" | relURL }}#{{ $supported_hardware.adapter }}">{{ index $.Site.Data.adapter $supported_hardware.adapter "notes" }}</a>{{ end }}</td>
   </tr>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  {{ range $software := sort $.Site.Data.software "name_en" }}
+  {{ range $supported_hardware := $software.hardware }}
+  {{ range $system := $.Site.Data.system }}
+  {{ if and (eq $supported_hardware.id $hardware.id) (eq $software.system $system.id) }}
+  {{ if or $supported_hardware.unofficial $supported_hardware.partial }}
+  <tr>
+    <td id="partial">~</td>
+    <td><a href='{{ "software" | relURL }}/{{ $software.id }}'>{{ $software.name_en }} ({{ $system.name }})</a></td>
+    <td>{{ $supported_hardware.notes }} {{ if $supported_hardware.adapter }}<a href="{{ "adapters" | relURL }}#{{ $supported_hardware.adapter }}">{{ index $.Site.Data.adapter $supported_hardware.adapter "notes" }}</a>{{ end }}</td>
+  </tr>
+  {{ end }}
   {{ end }}
   {{ end }}
   {{ end }}
