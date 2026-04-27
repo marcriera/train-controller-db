@@ -10,7 +10,7 @@ hidden: true
 
 This controller has one handle (5 power notches and 8+emergency brake notches), a D-Pad and 7 buttons (Select, Start, A, B, C, Close, ATS). The A button can distinguish between "soft" and "hard" presses. In addition, the controller has four lamps: doors, ATS, 45 and 15.
 
-Internally, it is a vendor-specific class device. 
+Internally, it is a vendor-specific class device. The input data is compatible with HID, but the device does not provide a HID descriptor.
 
 |                             |                                           |
 |-----------------------------|-------------------------------------------|
@@ -26,35 +26,58 @@ Internally, it is a vendor-specific class device.
 
 The controller sends reports to the host (PS2) formed by 4 bytes:
 
-| Byte 1 | Byte 2          | Byte 3    | Byte 4    |
-|:------:|:---------------:|:---------:|:---------:|
-| 0x01   | Reverser+handle | Buttons 1 | Buttons 2 |
+| Byte # | Data            |
+|:------:|:---------------:|
+| 1      | 0x01 (*fixed*)  |
+| 2      | Reverser+handle |
+| 3      | Buttons 1       |
+| 4      | Buttons 2       |
 
 The reverser+handle byte combines two values representing the state of the reverser and the power/brake handle. The handle notch is represented sequentially starting from **0x1** (Emergency), brake notches from highest to lowest, *N* and power notches from lowest to highest.
 
-| Forward | Neutral | Backwards |
-|:-------:|:-------:|:---------:|
-| 0x2X    | 0x0X    | 0x1X      |
+| Position   | Value |
+|:----------:|:-----:|
+| Forward    | 0x2X  |
+| Neutral    | 0x0X  |
+| Backward   | 0x1X  |
 
-The first button byte uses six bits to represent the state of the physical buttons. **0** means that the button is released and **1** that it is pressed. A bitmask can be used to retrieve the buttons.
+The first button byte uses bits to represent the state of the physical buttons. **0** means that the button is released and **1** that it is pressed.
 
-| Bit 0 | Bit 1 | Bit 2    | Bit 3    | Bit 4 | Bit 5 |
-|:-----:|:-----:|:--------:|:--------:|:-----:|:-----:|
-| ATS   | Close | A (soft) | A (hard) | B     | C     |
+| Bit | Physical Button |
+|:---:|:---------------:|
+| 1   | ATS             |
+| 2   | Close           |
+| 3   | A (soft)        |
+| 4   | A (hard)        |
+| 5   | B               |
+| 6   | C               |
+| 7   | *Unused*        |
+| 8   | *Unused*        |
 
-The second button byte also uses six bits to represent the state of the physical buttons.
+The second button byte also uses bits to represent the state of the physical buttons.
 
-| Bit 0 | Bit 1  | Bit 2 | Bit 3 | Bit 4 | Bit 5 |
-|:-----:|:------:|:-----:|:-----:|:-----:|:-----:|
-| START | SELECT | UP    | DOWN  | LEFT  | RIGHT |
+| Bit | Physical Button |
+|:---:|:---------------:|
+| 1   | Start           |
+| 2   | Select          |
+| 3   | Up              |
+| 4   | Down            |
+| 5   | Left            |
+| 6   | Right           |
+| 7   | *Unused*        |
+| 8   | *Unused*        |
 
 ### Output
 
-The controller supports receiving data via a control transfer to turn on/off the lamps. The setup packet is as follows:
+The controller supports receiving data via a control transfer to turn on/off the lamps. The USB setup packet is as follows:
 
-| bmRequestType | bRequest | wValue    | wIndex | wLength |
-|:-------------:|:--------:|:---------:|:------:|:-------:|
-| 0x40          | 0x50     | Lamp data | 0x0000 | 0x0000  |
+| Data          | Value       |
+|:-------------:|:-----------:|
+| bmRequestType | 0x40        |
+| bRequest      | 0x50        |
+| wValue        | *Lamp data* |
+| wIndex        | 0x0         |
+| wLength       | 0x0         |
 
 Changing *wValue* controls the lamps with the logic below.
 

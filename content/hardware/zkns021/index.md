@@ -49,7 +49,9 @@ The button data of the HID report represents input from most physical buttons. E
 | 16           | *Unused*        |
 | 17           | Square          |
 
-**Note**: The **ZL** button is also reported as pressed when the power/brake handle is in the **Emergency** position.
+{{% notice note %}}
+The **ZL** button is also reported as pressed when the power/brake handle is in the **Emergency** position.
+{{% /notice %}}
 
 #### Hat switch
 
