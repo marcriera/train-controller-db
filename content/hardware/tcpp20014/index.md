@@ -8,9 +8,9 @@ hidden: true
 
 ## Technical details
 
-This controller has two handles (4 power notches and an analogue brake handle with three areas), a D-Pad and 7 buttons (Select, Start, Horn, Announce, Camera, Left doors, Right doors). In addition, it provides a 3.5 mm jack connector to plug a horn pedal.
+This controller has 2 handles (4 power notches and an analogue brake handle with three areas), a D-Pad and 7 buttons (Select, Start, Horn, Announce, Camera, Left doors, Right doors). In addition, it provides a 3.5 mm jack connector to plug a horn pedal.
 
-Internally, it is a vendor-specific class device with a HID interface, but it does not provide HID descriptors.
+Internally, it is a vendor-specific class device. The input data is compatible with HID, but the device does not provide a HID descriptor.
 
 |                             |                                           |
 |-----------------------------|-------------------------------------------|
@@ -26,42 +26,79 @@ Internally, it is a vendor-specific class device with a HID interface, but it do
 
 The controller sends reports to the host (PS2) formed by 8 bytes:
 
-| Byte 1 | Byte 2 | Byte 3 | Byte 4 | Byte 5  | Bytes 6-8 |
-|:------:|:------:|:------:|:------:|:-------:|:---------:|
-| Brake  | Power  | Pedal  | D-Pad  | Buttons | Unused    |
+| Byte # | Data            |
+|:------:|:---------------:|
+| 1      | Brake           |
+| 2      | Power           |
+| 3      | Pedal           |
+| 4      | D-Pad           |
+| 5      | Buttons         |
+| 6      | *Unused*        |
+| 7      | *Unused*        |
+| 8      | *Unused*        |
 
 Unlike traditional controllers, the brake handle is analogue and the brake byte reflects the position of the handle precisely. There are three areas with the ranges listed below, plus the emergency notch.
 
-| Reduce pressure | Keep pressure | Increase pressure | Emergency |
-|:---------------:|:-------------:|:-----------------:|:---------:|
-| 0x23-0x64       | 0x65-0x89     | 0x8A-0xD6         | 0xD7      |
+| Position          | Range     |
+|:-----------------:|:---------:|
+| Reduce pressure   | 0x23-0x64 |
+| Keep pressure     | 0x65-0x89 |
+| Increase pressure | 0x8A-0xD6 |
+| Emergency         | 0xD7      |
 
 When using the controller with **Densha de GO! Professional 2** or **Densha de GO! Final**, the brake handle is interpreted as having 6 brake notches + emergency. The aproximate byte range for each notch is listed below (taken from **Densha de GO! Professional 2**).
 
-| Released  | B1        | B2        | B3        | B4        | B5        | B6        | Emergency |
-|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| 0x23-0x2A | 0x2B-0x3C | 0x3D-0x4E | 0x4F-0x63 | 0x64-0x8A | 0x8B-0xB0 | 0xB1-0xD6 | 0xD7      |
+| Notch     | Range     |
+|:---------:|:---------:|
+| Released  | 0x23-0x2A |
+| B1        | 0x2B-0x3C |
+| B2        | 0x3D-0x4E |
+| B3        | 0x4F-0x63 |
+| B4        | 0x64-0x8A |
+| B5        | 0x8B-0xB0 |
+| B6        | 0xB1-0xD6 |
+| Emergency | 0xD7      |
 
-The values for the power notch byte are listed below.
+The values for the power notch byte are the following. Between notches, a transition value of **0xFF** is reported.
 
-| N    | P1   | P2   | P3   | P4   | Transition |
-|:----:|:----:|:----:|:----:|:----:|:----------:|
-| 0x00 | 0x3C | 0x78 | 0xB4 | 0xF0 | 0xFF       |
+| Notch      | Value |
+|:----------:|:-----:|
+| N          | 0x00  |
+| P1         | 0x3C  |
+| P2         | 0x78  |
+| P3         | 0xB4  |
+| P4         | 0xF0  |
 
 The pedal byte has two possible values depending on the state of the pedal.
 
-| Released | Pressed |
-|:--------:|:-------:|
-| 0xFF     | 0x00    |
+| State      | Value |
+|:----------:|:-----:|
+| Released   | 0xFF  |
+| Pressed    | 0x00  |
 
-The D-pad byte represents the state of the arrow buttons. If two opposite directions are pressed simultaneously, the result is **Center** unless a third button is pressed.
+The D-pad byte represents the input from the **Up**, **Down**, **Left** and **Right** physical buttons. If two opposite directions are pressed simultaneously, the result is **None** unless a third button is pressed.
 
-| N    | NE   | E    | SE   | S    | SW   | W    | NW   | None/Center |
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----------:|
-| 0x00 | 0x01 | 0x02 | 0x03 | 0x04 | 0x05 | 0x06 | 0x07 | 0x08        |
+| Button     | Value       |
+|:----------:|:-----------:|
+| Up         | 0x00        |
+| Up+Right   | 0x01        |
+| Right      | 0x02        |
+| Down+Right | 0x03        |
+| Down       | 0x04        |
+| Down+Left  | 0x05        |
+| Left       | 0x06        |
+| Up+Left    | 0x07        |
+| None       | 0x08        |
 
-The button byte uses seven bits to represent the state of the physical buttons. **0** means that the button is released and **1** that it is pressed. A bitmask can be used to retrieve the buttons.
+The button byte uses bits to represent the state of the physical buttons. **0** means that the button is released and **1** that it is pressed.
 
-| Bit 0 | Bit 1    | Bit 2  | Bit 3       | Bit 4      | Bit 5  | Bit 6 |
-|:-----:|:--------:|:------:|:-----------:|:----------:|:------:|:-----:|
-| Horn  | Announce | Camera | Right doors | Left doors | SELECT | START |
+| Bit | Physical Button |
+|:---:|:---------------:|
+| 1   | Horn            |
+| 2   | Announce        |
+| 3   | Camera          |
+| 4   | Right doors     |
+| 5   | Left doors      |
+| 6   | Select          |
+| 7   | Start           |
+| 8   | *Unused*        |

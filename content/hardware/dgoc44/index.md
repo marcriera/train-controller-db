@@ -12,15 +12,15 @@ This is the original controller for the Microsoft Windows releases. This control
 
 The buttons and handles are mapped to game port buttons and axes, respectively, as follows:
 
-| Game port   | Controller |
-|-------------|------------|
-| B1          | B          |
-| B2          | A          |
-| B3          | *Unused*   |
-| B4          | C          |
-| X1          | Brake      |
-| Y1          | Power      |
-| X2          | *Unused*   |
-| Y2          | *Unused*   |
+| Game port button | Controller input |
+|------------------|------------------|
+| B1               | B                |
+| B2               | A                |
+| B3               | *Unused*         |
+| B4               | C                |
+| X1               | Brake            |
+| Y1               | Power            |
+| X2               | *Unused*         |
+| Y2               | *Unused*         |
 
 The controller needs to be calibrated before it can be used.

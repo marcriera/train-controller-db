@@ -24,10 +24,16 @@ Unlike other controllers, the notches in the combined power-brake handle are adj
 
 The are 8 possible gear settings:
 
-|               | **Type A** | **Type B** | **Type C** | **Type D** | **Type E** | **Type F** | **Type G** | **Type H**   |
-|---------------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:------------:|
-| Power notches | 4          | 3          | 5          | 4          | 4          | 5          | 5          | 6 (no click) |
-| Brake notches | 5          | 7          | 5          | 7          | 8          | 8          | 7          | 8 (no click) |
+| Setting   | Power notches | Brake notches |
+|:---------:|:-------------:|:-------------:|
+| Type A    | 4             | 5             |
+| Type B    | 3             | 7             |
+| Type C    | 5             | 5             |
+| Type D    | 4             | 7             |
+| Type E    | 4             | 8             |
+| Type F    | 5             | 8             |
+| Type G    | 5             | 7             |
+| Type H    | 6 (no click)  | 8 (no click)  |
 
 ### Input
 
@@ -35,22 +41,38 @@ The controller sends 5-character events separated by a carriage return (ASCII *0
 
 Events for the handle are the following.
 
-| Emergency | B8    | B7    | B6    | B5    | B4    | B3    | B2    | B1    |
-|:---------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| TSB20     | TSB30 | TSB40 | TSE99 | TSA05 | TSA15 | TSA25 | TSA35 | TSA45 |
-
-| N     | P1    | P2    | P3    | P4    | P5    | P6    |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| TSA50 | TSA55 | TSA65 | TSA75 | TSA85 | TSA95 | TSB60 |
+| Notch     | Event |
+|:---------:|:-----:|
+| Emergency | TSB20 |
+| B8        | TSB30 |
+| B7        | TSB40 |
+| B6        | TSE99 |
+| B5        | TSA05 |
+| B4        | TSA15 |
+| B3        | TSA25 |
+| B2        | TSA35 |
+| B1        | TSA45 |
+| N         | TSA50 |
+| P1        | TSA55 |
+| P2        | TSA65 |
+| P3        | TSA75 |
+| P4        | TSA85 |
+| P5        | TSA95 |
+| P6        | TSB60 |
 
 Events for the reverser are the following.
 
-| Backwards | Neutral | Forward |
-|:---------:|:-------:|:-------:|
-| TSG00     | TSG50   | TSG99   |
+| Position | Event |
+|:--------:|:-----:|
+| Forward  | TSG99 |
+| Neutral  | TSG50 |
+| Backward | TSG00 |
 
-Events for the buttons are the following. The first event is reported when the button is pressed, and the second one when the button is released.
+Events for the buttons are the following. One event is reported when the button is pressed, and another event when the button is released.
 
-| S           | A           | B           | C           |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| TSK99/TSK00 | TSX99/TSX00 | TSY99/TSY00 | TSZ99/TSZ00 |
+| Button | Press Event | Release Event |
+|:------:|:-----------:|:-------------:|
+| S      | TSK99       | TSK00         |
+| A      | TSX99       | TSX00         |
+| B      | TSY99       | TSY00         |
+| C      | TSZ99       | TSZ00         |

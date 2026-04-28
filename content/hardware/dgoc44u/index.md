@@ -10,7 +10,7 @@ hidden: true
 
 This controller has two handles (5 power notches and 8+emergency brake notches) and 6 buttons (Select, Start, A, B, C, D).
 
-Internally, it is a HID-compliant joystick with two axes and 6 buttons (the handle positions are reported via axes).
+Internally, it is a HID-compliant joystick with 2 axes and 6 buttons.
 
 |                             |                                           |
 |-----------------------------|-------------------------------------------|
@@ -22,26 +22,51 @@ Internally, it is a HID-compliant joystick with two axes and 6 buttons (the hand
 | **USB standard descriptor** | [Download](standard-descriptor.txt) |
 | **HID report descriptor**   | [Download](hid-report-descriptor.txt) |
 
-The controller sends reports to the host (PC) formed by 6 bytes:
+### Input
 
-| Byte 1 | Byte 2 | Byte 3 | Byte 4  | Byte 5 | Byte 6 |
-|:------:|:------:|:------:|:-------:|:------:|:------:|
-| Brake  | Power  | Null   | Buttons | Null   | Null   |
+#### Buttons
 
-The values for the brake notch byte are the following. There are 5 unmarked positions between **B8** and **Emergency**, but unlike classic controllers, they are all report the value for **Emergency**.
+The button data of the HID report represents input from most physical buttons. Each button in the HID report uses one bit. **0** means that the button is released and **1** that it is pressed.
 
-| Released | B1   | B2   | B3   | B4   | B5   | B6   | B7   | B8   | Emergency | Transition |
-|:--------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:---------:|:----------:|
-| 0x79     | 0x8A | 0x94 | 0x9A | 0xA2 | 0xA8 | 0xAF | 0xB2 | 0xB5 | 0xB9      | 0xFF       |
+| HID Button # | Physical Button |
+|:------------:|:---------------:|
+| 1            | B               |
+| 2            | A               |
+| 3            | C               |
+| 4            | D               |
+| 5            | Select          |
+| 6            | Start           |
 
-The values for the power notch byte are listed below.
+#### Axes
 
-| N    | P1   | P2   | P3   | P4   | P5   | Transition |
-|:----:|:----:|:----:|:----:|:----:|:----:|:----------:|
-| 0x81 | 0x6D | 0x54 | 0x3F | 0x21 | 0x00 | 0xFF       |
+The axis data of the HID report represents input from the power and brake handles. Each axis uses 1 byte.
 
-The button byte uses six bits to represent the state of the physical buttons. **0** means that the button is released and **1** that it is pressed.
+Axis 1 represents the notch of the brake handle, where each notch has a specific value. Between notches, a transition value of **0xFF** is reported.
 
-| Button 1 | Button 2 | Button 3 | Button 4 | Button 5 | Button 6 |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| B        | A        | C        | D        | SELECT   | START    |
+| Notch      | Value |
+|:----------:|:-----:|
+| Emergency  | 0xB9  |
+| B8         | 0xB5  |
+| B7         | 0xB2  |
+| B6         | 0xAF  |
+| B5         | 0xA8  |
+| B4         | 0xA2  |
+| B3         | 0x9A  |
+| B2         | 0x94  |
+| B1         | 0x8A  |
+| Released   | 0x79  |
+
+{{% notice note %}}
+There are 5 unmarked positions between **B8** and **Emergency**, which all report the value for **Emergency**.
+{{% /notice %}}
+
+Axis 2 represents the notch of the power handle, where each notch has a specific value. Between notches, a transition value of **0xFF** is reported.
+
+| Notch      | Value |
+|:----------:|:-----:|
+| N          | 0x81  |
+| P1         | 0x6D  |
+| P2         | 0x54  |
+| P3         | 0x3F  |
+| P4         | 0x21  |
+| P5         | 0x00  |

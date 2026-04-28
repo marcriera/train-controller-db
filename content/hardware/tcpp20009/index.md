@@ -8,9 +8,9 @@ hidden: true
 
 ## Technical details
 
-This controller has two handles (5 power notches and 8+emergency brake notches), a D-Pad and 6 buttons (Select, Start, A, B, C, D). In addition, it provides a door lamp and a 3.5 mm jack connector to plug a horn pedal. There are two rumble motors, one in each handle.
+This controller has 2 handles (5 power notches and 8+emergency brake notches), a D-Pad and 6 buttons (Select, Start, A, B, C, D). In addition, it provides a door lamp and a 3.5 mm jack connector to plug a horn pedal. There are 2 rumble motors, one in each handle.
 
-Internally, it is a vendor-specific class device with a HID interface, but it does not provide HID descriptors.
+Internally, it is a vendor-specific class device. The input data is compatible with HID, but the device does not provide a HID descriptor.
 
 |                             |                                           |
 |-----------------------------|-------------------------------------------|
@@ -26,53 +26,93 @@ Internally, it is a vendor-specific class device with a HID interface, but it do
 
 The controller sends reports to the host (PS2) formed by 6 bytes:
 
-| Byte 1 | Byte 2 | Byte 3 | Byte 4 | Byte 5 | Byte 6  |
-|:------:|:------:|:------:|:------:|:------:|:-------:|
-| 0x01   | Brake  | Power  | Pedal  | D-Pad  | Buttons |
+| Byte # | Data            |
+|:------:|:---------------:|
+| 1      | 0x01 (*fixed*)  |
+| 2      | Brake           |
+| 3      | Power           |
+| 4      | Pedal           |
+| 5      | D-Pad           |
+| 6      | Buttons         |
 
-The values for the brake notch byte are the following.
+The values for the brake notch byte are the following. Between notches, a transition value of **0xFF** is reported.
 
-| Released | B1   | B2   | B3   | B4   | B5   | B6   | B7   | B8   | Emergency | Transition |
-|:--------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:---------:|:----------:|
-| 0x79     | 0x8A | 0x94 | 0x9A | 0xA2 | 0xA8 | 0xAF | 0xB2 | 0xB5 | 0xB9      | 0xFF       |
+| Notch      | Value |
+|:----------:|:-----:|
+| Emergency  | 0xB9  |
+| B8         | 0xB5  |
+| B7         | 0xB2  |
+| B6         | 0xAF  |
+| B5         | 0xA8  |
+| B4         | 0xA2  |
+| B3         | 0x9A  |
+| B2         | 0x94  |
+| B1         | 0x8A  |
+| Released   | 0x79  |
 
-The values for the power notch byte are listed below.
+The values for the power notch byte are the following. Between notches, a transition value of **0xFF** is reported.
 
-| N    | P1   | P2   | P3   | P4   | P5   | Transition |
-|:----:|:----:|:----:|:----:|:----:|:----:|:----------:|
-| 0x81 | 0x6D | 0x54 | 0x3F | 0x21 | 0x00 | 0xFF       |
+| Notch      | Value |
+|:----------:|:-----:|
+| N          | 0x81  |
+| P1         | 0x6D  |
+| P2         | 0x54  |
+| P3         | 0x3F  |
+| P4         | 0x21  |
+| P5         | 0x00  |
 
 The pedal byte has two possible values depending on the state of the pedal.
 
-| Released | Pressed |
-|:--------:|:-------:|
-| 0xFF     | 0x00    |
+| State      | Value |
+|:----------:|:-----:|
+| Released   | 0xFF  |
+| Pressed    | 0x00  |
 
-The D-pad byte represents the state of the arrow buttons. If two opposite directions are pressed simultaneously, the result is **Center** unless a third button is pressed.
+The D-pad byte represents the input from the **Up**, **Down**, **Left** and **Right** physical buttons. If two opposite directions are pressed simultaneously, the result is **None** unless a third button is pressed.
 
-| N    | NE   | E    | SE   | S    | SW   | W    | NW   | None/Center |
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----------:|
-| 0x00 | 0x01 | 0x02 | 0x03 | 0x04 | 0x05 | 0x06 | 0x07 | 0x08        |
+| Button     | Value       |
+|:----------:|:-----------:|
+| Up         | 0x00        |
+| Up+Right   | 0x01        |
+| Right      | 0x02        |
+| Down+Right | 0x03        |
+| Down       | 0x04        |
+| Down+Left  | 0x05        |
+| Left       | 0x06        |
+| Up+Left    | 0x07        |
+| None       | 0x08        |
 
-The button byte uses six bits to represent the state of the physical buttons. **0** means that the button is released and **1** that it is pressed. A bitmask can be used to retrieve the buttons.
+The button byte uses bits to represent the state of the physical buttons. **0** means that the button is released and **1** that it is pressed.
 
-| Bit 0 | Bit 1 | Bit 2 | Bit 3 | Bit 4  | Bit 5 |
-|:-----:|:-----:|:-----:|:-----:|:------:|:-----:|
-| B     | A     | C     | D     | SELECT | START |
+| Bit | Physical Button |
+|:---:|:---------------:|
+| 1   | B               |
+| 2   | A               |
+| 3   | C               |
+| 4   | D               |
+| 5   | Select          |
+| 6   | Start           |
+| 7   | *Unused*        |
+| 8   | *Unused*        |
 
 ### Output
 
 The controller supports receiving data via a control transfer to turn on/off the door lamp and provide rumble. The setup packet is as follows:
 
-| bmRequestType | bRequest | wValue | wIndex | wLength |
-|:-------------:|:--------:|:------:|:------:|:-------:|
-| 0x41          | 0x09     | 0x0201 | 0x0000 | 0x0002  |
+| Data          | Value       |
+|:-------------:|:-----------:|
+| bmRequestType | 0x41        |
+| bRequest      | 0x09        |
+| wValue        | 0x0201      |
+| wIndex        | 0x0         |
+| wLength       | 0x2         |
 
 The data sent to the controller follows the structure below.
 
-| Byte 1 | Byte 2   |
+| Byte # | Value    |
 |:------:|:--------:|
-| Status | Function |
+| 1      | Status   |
+| 2      | Function |
 
 * **Status:** defines whether the function specified in byte 2 is **Off** (**0x00**) or **On** (**0x01**).
 * **Function:** **0x01** is **Left rumble**, **0x02** is **Right rumble**, **0x03** is **Door lamp**.
